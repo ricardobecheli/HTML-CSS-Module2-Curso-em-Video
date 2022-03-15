@@ -1,9 +1,6 @@
 # HTML-CSS-Module2-Curso-em-Video
  All the M1 content in the shape of a website and CSS to the extent of the course.
  
- # HTML-CSS-Module2-Curso-em-Video
- M1 content in website shape and all the CSS available in the course.
- 
  The content of Module 1 will be split into several pages, by subject/topic, with a left side vertical navigation bar as close as possible to the looks of w3schools' one. I liked that. It's simple and practical.
  
  The CSS will be as external as possible to standardize the website. Will check the pros and cons of that as we walk.No JavaScript is expected for this phase.
