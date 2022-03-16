@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-html-css.png" type="image/x-icon">
+    <title>HTML+CSS M1</title>
+</head>
+
+
+
+<body>
+          
+    <figure style="margin-bottom: 50px;">
+            <img src="images/emmet.jpg" width="100%" alt="Visual Studio Code screen with Emmet in action.">
+
+    </figure>       
+      
+            <p>Then, press <code>Enter</code> and it's done.</p>
+
+            <p>Learn more about Emmet in the <a href="https://code.visualstudio.com/docs/editor/emmet" target="blank" rel="noopener noreferrer">VS Code website.</a></p>
+
+            <p>What will appear as a result of that is the folowing:</p>
+
+    <figure style="margin-bottom: 50px;">
+                <img src="images/html-skeleton-from-codegrepper-dot-com.png" width="100%" alt="html skeleton.">
+                <figcaption><em>Credit:Image from codegrepper.com</em></figcaption>
+    </figure>
+
+        <p>AND LATER, WHEN YOU PROGRESS IN FRONT-END:</p>
+        <p>You will implement some mandatory things to that basic srtucture, like the:</p>
+
+    <ol>
+        <li>
+            Link to <em>external</em>* CSS <mark>stylesheet</mark> (in the <code>&lt;head&gt;</code> area) 
+        </li>
+        <li>
+            The <code>&lt;script&gt;</code> link (in the end of the <code>&lt;body&gt;</code> area) to an <em>external</em>* JavaScript document.
+        </li>
+    </ol>        
+        <p>* <em>External to the html document but still being part of your project.</em></p>
+        <p>See how the few extra implements will look like:</p>
+
+
+            <figure style="margin-bottom: 50px;">
+            <img src="images/html-incremented-skeleton-css-js-from-cloudinary-dot-com.jpg" alt="html skeleton." width="60%">
+            <figcaption><em>Credit:Image from cloudinary.com</em></figcaption>
+            
+            </figure>
+
+<h1>Title</h1>
+        
+        <p>The <code>&lt;title&gt;</code> tag inside the <code>&lt;head&gt;</code> area is the name your page or website will display in the TAB top.</p>
+        <p>An example from seo-gold.com:</p>
+
+            <figure>
+            <img src="images/title-tag-html-seo-gold-dot-com.jpg" width="60%">
+            <figcaption><em>Credit:Image from seo-gold.com</em></figcaption>
+            </figure>
+
+<h1>HTML Semantic Elements</h1>
+
+        <p>Semantic elements = elements with a meaning. <mark>HTML5 was built to be semantic, to attribute meaning to its content</mark>.</p>
+
+        <p>What are Semantic Elements?</p>
+        <p>A semantic element clearly describes its meaning to both the browser and the developer.</p>
+
+        <p style="color: blueviolet; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">The opposite of that are the CSS styles, which give a <em>form</em>, a <em>look</em> to the content, like now.</p>
+
+        <p>Examples of non-semantic elements: <code>div</code> and <code>span</code> - Tell nothing about its content, they just select an area (to be worked by CSS or JS).</p>
+
+        <p>Examples of semantic elements: <code>&lt;form&gt;</code>, <code>&lt;table&gt;</code>, and <code>&lt;article&gt;</code> and many others. They clearly define their content.</p>
+
+        <p>
+            But be careful where semantics meets logic:
+        </p>
+
+        <figure style="margin-left: 50px;">
+            <img src="images/ambiguity-MIT.jpg" alt="A cartoon illustration of structural ambiguity.  (Image courtesy of MIT OpenCourseWare.)">
+            <figcaption>A cartoon illustration of structural ambiguity.  (Image courtesy of MIT OpenCourseWare.)</figcaption>
+        </figure>
+
+        <p>Learn more at <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="blank" rel="noopener noreferrer">w3schools</a>.</p>
+
+<h1><em>hr</em> tag</h1>
+
+        <p>The <code> &lt;hr&gt;</code>* tag (hr stands for "horizontal rule". It makes an HORIZONTAL LINE). The the <span style="color: red;">red line</span> above here. It's originally black but I applied some <span style="color: blue;">style (=CSS)</span>  to it in the <span style="color: blue;">head</span> area of the HTML basic structure (but here, in this paragraph, the colors/style were modified in the middle of the paragraph (the so called "<span style="color: blue;">inline CSS</span>" explained above.), using <code>&lt;span&gt;</code> 3 times).</p>
+
+
+
+
+<h1><em>br</em>  tag</h1>
+        <p> The br tag breaks a line like now <br> (for whatever reason you may have), without being a paragraph. (after the word "now" there is a <code>&lt;br&gt;</code> tag)</p>
+
+<h1><em>del</em> tag</h1>
+
+        <p>The <code>&lt;del&gt;</code> tag <del>marks a text as non-valid</del> or deleted.</p>
+
+<h1><a id="backtoins"></a><em>ins</em> tag</h1>
+        <p>The <code>&lt;ins&gt;</code> tag underlines the text to give the kind of enphasis s if he text has been <ins>filled in the blank space, or inserted</ins>.</p>
+        <p><mark>Don't confuse this tag with the "u" one</mark>. "U" is not semantic. It just <u>underlines</u> and that's it, no meanings whatsoever.</p>
+
+<h1><em>small</em> tag</h1>
+        <p>This tag can be used in those small <small>contract/agreement/purchase order/invoice</small> letters.</p>
+        <p>The <big>"big"</big> tag is not used any longer. It works, thou. This task (enlarging) now is CSS business.</p>
+<h1><em>sup</em> tag</h1>
+        <p>The superscript tag is good to format things like 18<sup>25</sup>+3, for instance.</p>
+
+<h1><em>sub</em> tag</h1>
+        <p>The subscript tag doesn't make it rain but can make the H<sub>2</sub>O formula.</p>
+
+<h1><a id="above">Entities</a></h1>  
+    <h3>Entities are used to return / display special symbols.</h3>
+            
+        <p>"An HTML <strong>entity</strong>  is used to display <strong>invisible characters</strong>   and <strong>reserved characters</strong>  that would otherwise be interpreted as HTML code.</p>
+        
+        <p> <span style="color: yellow; background-color: gray;">An HTML entity is a piece of text, or string, that begins with an ampersand ( & ) and ends with a semicolon ( ; ).</span></p>
+
+        <p>For instance, HTML will interpret the less-than sign ( &lt; ) as a tag opening if you don't write it as an entity.</p>
+
+    <h2>The <code>&amp;lt;</code> entity makes <span style="color: blue;">&lt;</span></h2>
+        <p>
+            When I type the 3 characters above together (without scaping through an entity) they make this symbol: &lt;</p>
+        <p>
+            But if I want to show you the code that makes &lt; I have to replace the & (ampersand) for its respactive entity, which is "&amp;amp".
+        </p>
+        <p><strong>lt</strong> (LT in lowercase) means <q>LESS THAN.</q></p>
+        <P>Always with a semicolon at the end.</P>
+
+    <h2>The <code>&amp;gt;</code> entity makes <span style="color: blue;">&gt;</span> </h2>
+        <p>The same as above applies here, with "gt" instead of that.</p>
+        
+        <!-- Comentário é assim, lembra? Abre tag, exclamação, dois traços. -->
+
+        <p><strong>gt</strong>  means <q>GREATER THAN.</q></p>
+
+        <P>Always with a semicolon at the end, as well.</P>
+
+
+    <h3>Here we have some symbols written this way:</h3>
+    <ul>
+        <li>&reg;</li>
+        <li>&copy;</li>
+        <li>&trade;</li>
+        <li>&yen;</li>
+        <li>&phone;</li>
+        <li>&female;</li>
+        <li>&spades;</li>
+        <li>&numero;</li>
+    </ul>
+
+    <h3><a  href="http://arquivo.devmedia.com.br/artigos/devmedia/html-entities.html" target="_blank">Through this link you to to a COMPLETE LIST  of html entities (more than 1,500), which will open in a new tab.</a></h3>
+
+
+
+            <h2 style="color: rgb(252, 109, 57); margin-top: 100px;">Some art for a coffee-break.</h2>
+            <hr>
+            <img src="images/flyrrari.jpg" width="70%" alt="Flyrrari">
+            <hr style="margin-bottom: 100px;">
+            
+<h1>Emojis:</h1>
+        <p>Emojis codes are a little more complicated to insert.</p>
+        <p>First go to a website like the one linked below and:</p>
+        <ol>
+            <li>Choose the emoji;</li>
+            <li>Scroll down until you find the word "Codepoints".</li>
+            <li>Copy that code and paste it in your editor.</li>
+            <li>VERY IMPORTANT COMPLICATION: Remove the u+ and replace it with &#x then add a ; (semicolon) at the end.</li>
+            <li>Could be easier. Should be easier. Must be easier!!!</li>
+            <li>Of course when you get to the site linked below you may just copy and paste the emoji itself (just like that: 😊), but it won't work in some browsers, as teacher Guanabara said.</li>
+        </ol>
+
+
+        <p><a href="https://emojipedia.org/" target="blank" rel="noopener noreferrer">Through this link you to to a COMPLETE LIST of emojis and their codes.</a></p>
+
+        <p>And here we have some emojis coded the complicated (and only) way to code emojis:</p>
+        <ul>
+            <li>&#x1F648</li>
+            <li>&#x1F440</li>
+            <li>&#x1F60A</li>
+        </ul>
+
+<h1>Images</h1>
+
+
+        <p>Always be sure that you are not violating copyrights when pasting images made by someone else into your website.</p>
+        <p>There are royalty free images around the web, like:</p>
+        <p><a href="https://pixnio.com/pt/" target="blank" rel="noopener noreferrer">Pixnio</a></p>
+        <p>Or</p>
+        <p><a href="https://pxhere.com/" target="blank" rel="noopener noreferrer">Pxhere</a></p>
+        <p>Or many others.</p>
+        <p>This canyon image is from Pixnio. Very easy. You don't even have to register in their website. And you have size options. You can even chose a personalized one with the width or height of your preference.</p>
+
+        <div class="canyon">
+            <img src="images/CANYON-PIXNIO-1211955-836x675.jpg" width="100%" alt="Pixnio image.">
+        </div>
+
+
+    <h2>How to add images to your page</h2>
+
+    <h3>1) From a folder of yours:</h3>
+
+        <p>First, download the image to your "images" folder within your HTML project.</p>
+        <p>(If you're a beginner like me, going through Visual Studio Code tutorials is not a bad idea)</p>
+        <p>Then, in the VSCode editor: just type <code>img</code> and Emmet, the automatic assistant, will write the rest for you. After it's done, place the cursor in between the first pair of quotation marks (src="") of the "img" tag, press ctrl+spacebar and chose your image from your folder on the dialogue box.</p>
+        <p>The second pair of quotation marks (alt="") of the "img" tag are for you to write a quick description of the picture. It serves to appear in the screen in case the image doesn't load for any reason AND to be read out loud for those who wish the browser to do that.</p>
+        
+
+    <h3>2) Straight from another website:</h3>
+
+        <p>Copying an image <strong>address</strong>   from another website is an alternative way of adding an image to your page.</p>
+        <p>The disadvantage is that the image in your page will always depend on the existence of the original one and more: it must be exactly where it was when you copied the eddress. If their website crashes, your linked image crashes. If they change anything in the addres, the link is gone and so does the image.</p>
+        <p>Just right click any image of any website and choose "copy image address" (or whatever is closer to that). Then, paste it between the first pair of quotation marks (src="") of the "img" tag.</p>
+        <p>Again: The second pair of quotation marks (alt="") of the "img" tag are for you to write a quick description of the picture. It serves to appear in the screen in case the image doesn't load for any reason AND to be read out loud for those who wish the browser to do that.</p>
+        <p>This is an example (linked from G1.com):</p>
+        <img src="https://s2.glbimg.com/DHCxxKd2oxxJwWNSGcbtwhTDapA=/0x0:1200x5562/640x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/8/c/wBz1OySaygj4v3cLRJTw/0102-cadeira-escritorio-ergonomia.jpg" alt="Imagem do G1" width="50%">
+
+    <h2>Types of images</h2>
+
+        <p>In a few words:</p>
+
+        <hr>
+
+        <p>JPG (or JPEG) Is better if you want a big image with less weight, like this one:</p>
+
+
+        <div class="pic">
+        <img src="images/landscape.jpg" width="100%" alt="swimming pool near the ocean landdscape">
+        </div>
+    <hr>
+
+    <div class="blue">
+
+        <p style="font-size:x-large; text-align: justify;">PNG images are better if you want the picture itself to have a transparent background (and no picture frame), like these ones:</p>
+
+        
+            <div class="balls-hand">
+                <img src="images/baloon.png" alt="baloons" width="auto">
+            </div>
+
+            <div class="balls-hand">
+                <img src="images/hand.png" alt="hand" width="auto" >
+            </div>
+
+            <div class="balls-hand">           
+                <img src="images/spiderman.png" alt="baloons" width="auto">
+            </div>
+        
+
+
+
+    </div>
+        <p style="text-align: justify;">I've implemented a blue background (in a "div" "class" called "balls-hand" inside another div class called "blue" in the head sector of this HTML document) to make it easier to check the image's transparency and to align them. <br>Images from <a href="https://www.pngwing.com/en/search?q=free+download" target="blank" rel="noopener noreferrer">pngwing.com</a> .</p>
+
+        <hr>
+        <img src="images/baloon.png" alt="baloons" width="20%">
+
+        <p>If you want to optimize the image, please use GIMP freeware (the "free photoshop") to "save for web" (a plugin) and automatically reduce a lot of the image's weight without loosing much quality.</p>
+
+    <hr style="margin-bottom: 80px;">
+     
+
+<h1>Favicon</h1>
+
+        <p>"A favicon is a small icon or collection of icons associated with a website, web page, or web application. It's displayed within the browser tabs and bookmarks bar".  <a href="https://favicon.io/" target="blank" rel="noopener noreferrer">Favicon.io</a></p>
+
+        <p>"A favicon is used to help users visually identify websites, web pages, and web applications within browser tabs, bookmarks, shortcuts, and address bars more easily. It's important to have a favicon for your website for brand recognition so that your users can easily identify your site in their browser tabs and bookmarks". <a href="https://favicon.io/" target="blank" rel="noopener noreferrer">Favicon.io</a></p>
+
+        <p>Examples of favicon:</p>
+        <hr>
+        <img src="images/example01-favicon.jpg" alt="Example of favicon-01" width="25%">
+        <hr>
+        <img src="images/example02-favicon.jpg" alt="Example of favicon-02" width="25%">
+        <hr>
+
+
+        
+
+    <h2>What are common favicon file formats?</h2>
+    <h3>ICO - favicon.ico</h3>
+        <p>"The most common favicon formats are ICO, PNG, and SVG, but there are additional formats for specific browsers or devices. The ICO file format was developed by Microsoft and is the original file format for the favicon. The format is unique because it allows for multiple small images within the same file. This is advantageous because the small icons required for a favicon in ICO format (16x16, 32x32, and 48x48 pixels) can be scaled and optimized independently. At small dimensions you can't rely on the browser to automatically resize your icon in an optimal way. The ICO format is supported by all browsers and it's the only format that IE5 through IE10 supports". <a href="https://favicon.io/tutorials/what-is-a-favicon/" target="blank" rel="noopener noreferrer">Favicon.io</a></p>
+
+    <h3>PNG - favicon.png</h3>
+
+        <p>"The PNG format is a nice format because it's a format that most people are used to and doesn't require any special tools to create. With modern screens being high resolution the original problem of small icon dimensions for small resolutions no longer exists. For browsers that support the PNG favicon format oftentimes the quality of the favicon displayed within the browser tab or bookmarks bar will be higher than the ICO format. The disadvantage of the PNG format is that it's not compatible with IE5 through IE10". <a href="https://favicon.io/tutorials/what-is-a-favicon/" target="blank" rel="noopener noreferrer">Favicon.io</a></p>
+
+    <h3>SVG - favicon.svg</h3>
+
+        <p>"The SVG format has benefits over the PNG and ICO formats, but doesn't have great browser support yet. SVG files (Scalable Vector Graphics) are very lightweight and, being a "vector" graphic, they are infinitely scalable. This means that image quality is superb without sacrificing load times for heavy images. Only Chrome, Firefox, and Opera support SVG format favicons". <a href="https://favicon.io/tutorials/what-is-a-favicon/" target="blank" rel="noopener noreferrer">Favicon.io</a></p>
+
+    <h2>How to add a favicon to the page/site:</h2>
+
+        <p>In the head area of the HTML code you type <code>link</code>. One of the Emmet Abbreviations the assistant will suggest says <code>link : favicon</code>.</p>
+
+            <p>
+                <span style="color: yellow; background-color: gray;">
+                Delete whatever comes written in the "href" quotation marks</span> and press ctrl+enter to choose your own favicon image from your project's folder (all this in the Visual Studio Code, of course).
+            </p>
+
+            <p>
+               And 
+                <span style="color: yellow; background-color: gray;">don't change anytinng else</span>  in this code line given by Emmet. (Those colors here are some "span" + "style" testing.) 
+            </p>
+
+<h1>Bold and Italic</h1>
+            
+            <p>Here I make a <strong>bold</strong> word using the <code>&lt;strong&gt;</code> tag.</p>
+            
+            <p style="color: red;">Better NEVER use the tag <code>&lt;b&gt;</code> to make bold. It's not semantic. This tag <q>should be used to markup text as bold without conveying any extra importance, for example in article abstracts, where the beginning of an article is set in bold text</q>. <br>(quackit.com).</p>
+                        
+            <p>And here's an <em>italic</em> word made with the <code>&lt;em&gt;</code> tag.</p>
+            <p style="color: red;">Avoid using the tag <code>&lt;i&gt;</code> for italic. It's not a much appropriate semantic element.</p>
+
+<h1>Wrap with abbreviation (a VS Code shortcut)</h1>
+
+            <p>To put any lenght of text (from a single letter to a group of paragraphs) inside a tag:</p>
+            <p>Just press <em>Ctrl + shift + p</em> then find "wrap with abbreviation", select it with <em>enter</em> and type only the letters that represent the tag you want. Only the letters, without the &lt; and &GT; signs. And <em>enter</em> to finalize. Ready! It's wrapped. The next times you do that, just press ctrl+shift+p and the option will already be there in the recent history and you proceed with the rest of the instructions above. </p>
+
+<h1>
+    <mark>Mark</mark> the text
+</h1>
+
+<p>The <code>&ltmark&gt;</code> tag makes the above <code>&lt;h1&gt;</code> heading (which I had "styled" to green) return to its original color, black.</p>
+
+<p>If you want it to continue the green CSS style I have defined for all <code>&lt;h1&gt;</code> tags you have to force it by applying an INLINE CSS to the <code>&ltmark&gt;</code> tag opening as follows:</p>
+
+<h1 style="margin-left: 200px;">
+    <mark style="color:darkgreen;">Mark</mark> the text
+</h1>
+
+<p>And if the yellow mark doesn't match your overall background-color, just do the same as above adding a background-color to the mark's opening tag style. See:</p>
+
+<h1 style="margin-left: 200px;">
+    <mark style="color:darkgreen; background-color: lime;">Mark</mark> the text
+</h1>
+
+        <p>Mark the text. Don't mark bobeira!</p>
+
+<h1>
+    HOW TO DISPLAY CODE
+</h1>
+
+<h2>
+    The <code>&lt;code&gt;</code> tag:
+</h2>
+
+            <p>The code tag above is between the <code>&lt;code&gt;</code> tags, which turns the fonts into <mark>"monospaced"</mark>. The <code>black background and the green font color</code> are CSS styles I have added. The same happens with the open and close tag symbols, which I added through the "HTML entities" we will see in the next topic.
+            </p>
+
+            <p>
+                <q>A monospaced font, also called a fixed-pitch, fixed-width, or non-proportional font, is a font whose letters and characters each occupy the same amount of horizontal space. This contrasts with variable-width fonts, where the letters and spacings have different widths. Check the comparison below.</q><a href="https://en.wikipedia.org/wiki/Monospaced_font" target="blank" rel="noopener noreferrer"> (From Wikipedia)</a>.
+            </p>
+
+            <figure>
+                <img src="images/Proportional-vs-monospace-v5.svg.png" width="50%" alt="proportional versus monospaced image comparison." style="margin-bottom: 50px;">
+            </figure>
+
+            <p>
+            If you just put a JS code snippet into a <code>&lt;code&gt;</code> tag it does not replicate the line breaks and the identing, like the example below:
+            </p>
+
+            <p>
+    <code>
+        matches.forEach(function(match) {
+            match.parentNode.removeChild(match);
+          });
+    </code>
+            </p>
+
+            <p>
+            It's just rendered as monospaced font (and - in this particular case - plus the black and green CSS I applied to all the code tags).
+            </p>
+
+<h2>
+    The <code>&lt;pre&gt;</code> tag:
+</h2>
+
+            <p>
+            So if you really want it to be displayed like the real code in the editor <mark>you must apply the <code>&lt;code&gt;</code> tag <strong>inside</strong> the <code>&lt;pre&gt;</code> tag</mark> (check the source).</p>
+            
+            <p>This tag also displays the text as it is formated at the origin, or PRE-formated (hence the name of the tag).</p>
+            
+            <p>And it renders code as follows:</p>
+
+
+            <p>
+    <pre>
+<code style="line-height: 18px; background-color: rgba(250, 235, 215, 0.30); color: black;">
+        matches.forEach(function(match) { 
+            match.parentNode.removeChild(match);
+        });</code>
+    </pre>
+            </p>
+
+
+            <p>Important remarks:<br>
+
+                <ul>
+                    <li>Line height was set to 18px so the braces opening was not cut by the second line background color.</li>
+                    <li>Only here I "removed" (by applying - inline - other style upon the black and green) the black and green CSS I applied to all the code tags (with regrets and I've learned from that) .</li>
+                </ul>
+
+            </p>
+
+<h3>Here's additional information about that from my <a href="https://rocketseat-discover-two.vercel.app/" target="blank" rel="noopener noreferrer">Rocketseat course page</a>:</h3>
+
+            <p>Please, pay attention where it mentions the HTML entities.</p>
+
+
+<div class="entity">
+    <h3>&lt;pre&gt; The <em>PREFORMATED TEXT</em> element according to MDN Web Docs:</h3>
+
+            <p>
+                What is <a href="https://en.wikipedia.org/wiki/MDN_Web_Docs" target="blank" rel="noopener noreferrer"><img src="images/MDN_Web_Docs.svg" height="5%" alt="MDN logo"></a> ?
+            </p>
+
+            <p style="color: black;">
+                (This is the old logo. The MDN logo has changed as from March 1, 2022 - I coudn't get any to show here. And now I discovered that I didn't get any because so far there's none "ready made": The new logo is built from CSS traces, not a png or jpg image.). </p>
+                
+                <p>OPS! Just after writing this (on March 3/2022) I found a png one at Wikipedia, and here it is:</p>
+            
+
+            <figure>
+                <a href="https://developer.mozilla.org/en-US/" target="blank" rel="noopener noreferrer" ><img src="images/MDN_Web_Docs_NEW_logo.svg" width="50%" alt="New MDM Web Docs logo"></a>
+            </figure>
+    
+    <figure>
+        <blockquote>
+            <p>
+                <q>The HTML element represents preformatted text which is to be presented <mark>exactly as written in the HTML file (*!!!)</mark>. The text is typically rendered using a non-proportional, or <a href="https://en.wikipedia.org/wiki/Monospaced_font" target="blank" rel="noopener noreferrer">monospaced</a>, font. Whitespace inside this element is displayed as written</q>. <cite><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre" target="blank" rel="noopener noreferrer">Check it at MDN</a></cite>
+    
+            </p>
+        </blockquote>
+    </figure>
+    
+            <p><mark>*!!! Be careful !!! - It's not quite like that</mark>, as the very site continues:</p>
+    
+            <p><q>If you have to display reserved characters such as <code>&lt;</code>, <code>&gt;</code>, <code>&amp;</code> and <code>"</code> within the &lt;pre&gt; tag, they must be <strong style="color: black;"><mark>escaped</mark></strong> using their respective <strong style="color: black;">HTML <mark>entity</mark></strong>.</q></p>
+</div>
+
+        <p>IN OTHER WORDS, YOU MUST CANCELL THE HTML "CODE EFFECT" OF THOSE SYMBOLS (when displaying code) AS FOLLOWS:</p>
+
+<div class="entity">
+    <h2 style="color: black;">Do you remember what HTML <mark>entities</mark> are?</h2>
+    
+            <h3>We've seen them  <a href="#above">above (check first)</a>.</h3>
+            
+            <p>Now let's review and see where they fit:
+    
+            <p>Entities are used to return / display special symbols.</p>
+    
+            <p>"An HTML entity  is used to display invisible and reserved characters that would otherwise be interpreted as HTML code.</p>
+    
+            <p>n HTML entity is a piece of text, or string, that begins with an ampersand ( & ) and ends with a semicolon ( ; )./p>
+    
+            <p>For instance, HTML will interpret the <q>less-than</q> sign ( &lt; ) as a tag opening if you don't write it as an entity.</p>
+</div>
+
+    <h2>The <code>&amp;lt;</code> entity makes <span style="color: blue;">&lt;</span></h2>
+            <p>
+                When I type the 3 characters above together (without scaping through an entity) they make this symbol: &lt;</p>
+            <p>
+                But if I want to show you the code that makes &lt; I have to replace the & (ampersand) for its respactive entity, which is "&amp;amp".
+            </p>
+            <p><strong>lt</strong> (LT in lowercase) means <q>LESS THAN.</q></p>
+            <P>Always with a semicolon at the end.</P>
+
+    <h2>The <code>&amp;gt;</code> entity makes <span style="color: blue;">&gt;</span> </h2>
+            <p>The same as above applies here, with "gt" instead of that.</p>
+
+
+<div class="entity">
+    <h3>Here we have some symbols written this way:</h3>
+            <ol>
+            <li>&reg;</li>
+            <li>&copy;</li>
+            <li>&trade;</li>
+            <li>&yen;</li>
+            <li>&phone;</li>
+            <li>&female;</li>
+            <li>&spades;</li>
+            <li>&numero;</li>
+            </ol>
+    
+    <h3><a  href="http://arquivo.devmedia.com.br/artigos/devmedia/html-entities.html"  target="blank" rel="noopener noreferrer">Through this link you to to a COMPLETE LIST  of html entities (more than 1,500), which will open in a new tab.</a></h3>
+</div>
+
+
+<h1>QUOTATIONS</h1>
+
+
+<p>
+    <a href="https://www.w3schools.com/html/html_quotation_elements.asp" target="blank" rel="noopener noreferrer">w3-quotation_elements</a>
+</p>
+
+    <h3>
+        1) The <code>&lt;q&gt;</code> tag
+    </h3>
+            <p>
+                I could use the keyboard to put a text "between quotation marks", like I did now.
+            </p>
+
+
+            <p>
+                But it would not be semantic.
+            </p>
+
+            <p>
+                A small review about semantics:
+            </p>
+                
+            <p>
+                A semantic element clearly describes its meaning to both the browser and the developer</p>
+            <p>
+                Examples of non-semantic elements: <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> - Tell nothing about its content. They just select an area (to be worked by CSS or JS)
+            </p>
+            <p>
+                Examples of semantic elements: <code>&lt;form&gt;</code>, <code>&lt;table&gt;</code>, and <code>&lt;article&gt;</code> - Clearly defines its content.
+            </p>
+
+    <h3>
+        2) The <code>&lt;cite&gt;</code> tag
+    </h3>
+
+            <p>
+                The <code>&lt;cite&gt;</code> attribute is not displayed in the screen. Its purpose is to orient SEO... And most of all it specifies a URL to a document that explains:
+            </p>
+            <ul>
+                <li>A section that is quoted from another source <code>&lt;blockquote&gt;</code> (see below), or</li>
+                <li>The quote <code>&lt;q&gt;</code>(see below), or</li>
+                <li>Why the text was inserted <code>&lt;ins&gt;</code> <a href="#backtoins">(check the ins tag above)</a>, or</li>
+                <li>Why some text was deleted <code>&lt;del&gt;</code> <a href="#backtodel">(check the del tag above)</a>, containing a URL to a document that explains the deletion  .</li>
+            </ul>
+
+            
+    <h3>
+        3) The <code>&lt;blockquote&gt;</code> tag
+    </h3>
+
+            <p style="margin-left: 0px;">The HTML <code>&lt;blockquote&gt;</code> element defines a section that is quoted from another source.</p>
+
+            <p style="margin-left: 0px;">Browsers usually indent <code>&lt;blockquote&gt;</code> elements and that's it. No quotation marks, no italic. Look:</p>
+
+            <p style="margin-left: 0px;">Here is a quote from WWF's website:</p>
+
+            <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            <p>For 50 years, WWF has been protecting the future of nature...</p>
+            <p>WWF works in 100 countries...</p>
+            </blockquote>
+
+            <p style="margin-left: 0px;">See how the code gets:</p>
+
+            <img src="images/blockquote-code.png" width="50%" alt="block code image">
+
+
+    <h3>
+        4) The <code>&lt;abbr&gt;</code> tag
+    </h3>
+
+            <p>The <code>&lt;abbr&gt;</code> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM". </p>
+
+            <p>
+                In VSCode, Emmet brings it to us already with the global <code>&lt;title&gt;</code> attribute to show the description for the abbreviation/acronym when you mouse over the element. Example:
+            </p>
+
+            <p>
+                If you pass the mouse pointer over the <abbr title="HyperText Markup Language">HTML</abbr> abbreviation you will see its meaning.
+            </p>
+
+
+            
+<h1>LISTS</h1>
+
+<h3>1) Ordered lists</h3>
+
+            <p>An ordered list starts with the <code>&lt;ol&gt;</code> tag. Each list item starts with the <code>&lt;li&gt;</code> tag.</p>
+
+            <p>Example:</p>
+
+            <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+          
+            <p>
+                The code looks like that:
+            </p>
+
+            <img src="images/ordered-list.png" width="30%" alt="Ordered List Code">
+
+            <p>
+                This screenshot was obtained by VSCode's CodeSnap extention I have just installed.
+            </p>
+
+    <h4>1.1 - Ordered HTML List - The Type Attribute</h4>
+
+
+            <p>Once you start typing the word "type", Emmet gives you the hints:</p>
+
+            <img src="images/emmet-ordered-lists-type.jpg" width="70%" alt="Emmet gives the type hints">
+
+            <p>1.1.1) type="1"	The list items will be numbered with numbers (default)</p>
+            <p>Example:</p>
+            <ol type="1">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+
+            <p>1.1.2) type="A"	The list items will be numbered with uppercase letters</p>
+            <p>Example:</p>
+            <ol type="A">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+
+              <p>A syntax example taken from Type A:</p>
+              <img src="images/type-A-ordered-list.png" width="30%" alt="">
+
+            <p>1.1.3) type="a"	The list items will be numbered with lowercase letters</p>
+            <p>Example:</p>
+            <ol type="a">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+
+            <p>1.1.4) type="I"	The list items will be numbered with uppercase roman numbers</p>
+            <p>Examnple:</p>
+            <ol type="I">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+
+            <p>1.1.5) type="i"	The list items will be numbered with lowercase roman numbers</p>
+            <p>Examnple:</p>
+            <ol type="i">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+
+
+    <h3>1.2) The <code>start</code> attribute:</h3>
+
+            <ol type="1" start="7">
+                <li>If you...</li>
+                <li>Had stopped the list at, let's say, number 6, for instance...</li>
+                <li>And wishes to continue from where it sopped.</li>
+            </ol>
+
+            <p>The code stays this way:</p>
+
+            <img src="images/ordered-start.png" width="60%" alt="code re-start the list">
+
+
+
+<h3>2) Reversed order lists</h3>
+
+            <p>The <code>reversed</code> attribute is a boolean attribute. When present, it specifies that the list order should be descending (9,8,7...), instead of ascending (1, 2, 3...).</p>
+
+            <p>Example:</p>
+
+            <ol reversed>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+
+              <p>Syntax example:</p>
+
+              <img src="images/reversed-order-list.png" width="30%" alt="Reversed list code example">
+
+
+<h3>3) Unordered lists</h3>
+
+            <p>The HTML <code>&lt;ul&gt;</code> tag defines an unordered (bulleted) list. (Same syntax as <code>&lt;ol&gt;</code>).</p>
+
+            <p>Example:</p>
+
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ul>
+              
+
+
+<h3>4) Nested lists 1</h3>
+
+            <p><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_nested" target="blank" rel="noopener noreferrer">w3-nested</a></p>
+
+
+                <ul>
+                    <li>Fruit
+                      <ul>
+                        <li>Bananas</li>
+                        <li>Apples
+                          <ul>
+                            <li>Green</li>
+                            <li>Red</li>
+                          </ul>
+                        </li>
+                        <li>Pears</li>
+                      </ul>
+                    </li>
+                    <li>Vegetables</li>
+                    <li>Meat</li>
+                  </ul>
+
+            
+            <p>See how the nested list code is:</p>
+
+            <img src="images/nested-list.png" width="70%" alt="nested list code">
+
+
+<h3>4.1) Nested lists 2 </h3>
+
+<h4>Example of programming languages:</h4>
+
+            <ol>
+                <li>Old ones</li>
+                <ol type="a">
+                    <li>Clipper</li>
+                    <li>Fortram</li>
+                        <ul>
+                            <li>Fort1</li>
+                            <li>Fort2</li>
+                        </ul>
+                    <li>Visual Basic</li>
+                    <li>Delphi</li>
+                </ol>
+
+                <li>New ones</li>
+                <ol type="a" start="5">
+                    <li>PHP</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>Kotlin</li>
+                </ol>
+
+            </ol>
+
+            <p>Just to show the feature I set the start of the "new ones" to "5", meaning the 5th letter of the sequence.</p>
+
+            <p>And I invented "Fort1" and "Fort2" just to show you that the unordered nesting cause a progressive indentation. Like the fruits in "nested lists 1" above.</p>
+
+
+<h3>5) Description lists</h3>
+
+            <p>A description list is a list of <mark>terms</mark>, with a <mark>description</mark> of each term.</p>
+
+            <p>The <code>&lt;dl&gt;</code> tag defines the description list</p>
+
+            <p>The <code>&lt;dt&gt;</code> tag defines the term (name)</p>
+
+            <p>And the <code>&lt;dd&gt;</code> tag describes each term:</p>
+
+            <p>Example (I've set a 100px margin left to indent the whole example):</p>
+
+            <dl style="margin-left: 100px;">
+                <dt>Coffee</dt>
+                <dd>A black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>A white cold drink</dd>
+            </dl>
+
+            <p>Syntax example:</p>
+
+            <img src="images/description-list.png" width="50%" alt="description list code image">
+
+            <p>
+                Note that the example is not indented because the <code>code</code> is indented. It's because of the 100px margin I have set.
+            </p>
+
+
+    
+<h1>LINKS</h1>
+
+            <p>
+                "Links are found in nearly all web pages. Links allow users to click their way from page to page". (w3schools)
+            </p>
+
+            <p>
+                More than that, the <code>&lt;a&gt;</code> HTML <strong>anchor</strong> element, with its <code>href</code> attribute, can create hyperlinks to:
+            </p>    
+            
+                <ul>
+                    <li>web pages,</li>
+                    <li>files (including video and sound),</li>
+                    <li>email addresses,</li>
+                    <li>locations in the same page,</li>
+                    <li>or anything else a URL can address.</li>
+                </ul>
+            
+
+            <p>
+                MUCH more can be said about links and the <code>&lt;a&gt;</code> tag and you may read it at <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="blank" rel="oopener noreferrer">MDN Web Docs</a>, but here we will stick to the following:
+            </p>
+
+            <ol>
+                <li>External links (When there's a full web address in the href attribute, it is called <strong>absolute URL</strong>).</li>
+                <li>Internal links:</li>
+                    <ol type="a">
+                        <li>To pages of the same website (A local link - a link to a page within the same website - is specified with a <strong>relative URL</strong> (without the "https://www" part):</li>
+                            <ol type="i">
+                                <li>Belonging to the same folder as the current one.</li>
+                                <li>Stored in another folder of the same website.</li>
+                            </ol>
+                        <li>To a certain line (or section) of the same page.</li>
+                        <li>A download link.</li>
+                    </ol>
+            </ol>
+
+<h2>1) External links</h2>
+
+            <p>This kind of link is made to an <strong>absolute URL</strong> (includes the "<code>https://www</code>" part). Example:</p>
+
+            <p>
+                You can access <a href="https://github.com/ricardobecheli" target="blank" rel="noopener noreferrer" >my public repository at Github by clicking here</a>.
+            </p>
+
+
+            <p>The HTML element:</p>
+            <p><code>&lt;a href=""&gt;&lt;/a&gt;</code></p>
+
+            <p><code>a</code> means anchor and <code>href</code> means hypertext reference.</p>
+
+            And how it's filled:
+            <a href=""></a>
+            <p><code>&lt;a href="<span style="color: white;">the URL comes here</span>"&gt;<span style="color: rgb(65, 162, 252);">and the text that will become hyperlink comes here</span>&lt;/a&gt;</code></p>
+
+<h3>And there's something very important:</h3>
+
+            <p>
+                As you can see in the code below, there are a "target" and a "rel" attributes, meaning:
+            </p>
+
+                <ol type="a">
+                    <li><span style="color: red;"><em>target="blank"</em></span> means that the target page will be opened in a new tab of your browser.</li>
+                    <li><span style="color: red;"><em>rel="noopener noreferrer"</em></span> means that the opening of a new tab will avoid undesired invaders (crackers). Not doing this can be risky.</li>
+                </ol>
+
+            <p>Check the code:</p>
+
+                <img src="images/href-code.png" width="100%" style="margin-bottom: 50px;" alt="The href code">
+
+
+<h2>2) Internal links</h2>
+
+    <h3>2.1) Link to pages of the same website:</h3>
+
+            <p>This kind of link is made to a <strong>relative URL</strong> (without the "<code>https://www</code>" part).
+            </p>
+
+
+    <h4>2.1.1) Belonging to the same folder as the current one.</h4>
+
+            <p>
+                Just click <a href="samefolder1.html" target="blank" rel="noopener noreferrer">here</a> to go there.
+            </p>
+
+    <h4>2.1.2) Stored in another folder of the same website.</h4>
+
+    
+            <p>
+                And <a href="new-folder/newfolder2.html" target="bank" rel="noopener noreferrer">here you go to a page stored in the "new-folder"</a>.
+            </p>
+    
+    
+    
+    
+    
+    <h3>2.2) Link to a certain line (or section) of the same page, in 2 steps:</h3>
+                
+            <p>a) First, you use an <code>id</code> to give an unique name to the destination point of the future link.</p>
+            <img src="images/above1.png" width="50%" style="margin-bottom: 30px;" alt="Code: anchor in the same page.">
+
+            <p>b) And soon after that you make the link through the usual <code>&lt;a&gt;</code> tag, pointing the hypertext reference (<code>href</code>) to the <code>id</code> through a <code>#</code> plus the name of the id.</p>
+            <img src="images/above2.png" width="70%"style="margin-bottom: 50px;" alt="Code: link to the anchor in the same page.">
+
+    <h3>2.3) Download link:</h3>
+
+            <p>From here you can download a <a href="book/Internet History in Portuguese.pdf">PDF book from Curso Em Vídeo</a> about the Internet History.</p>
+    
+<h1>RESPONSIVE IMAGES</h1>
+
+            <p>This helps to improve performance across different devices. Responsive images are just one part of responsive design, a future CSS topic for us to learn.</p>
+
+            <p>
+                We will learn how to use features like <code>srcset</code> and the <code>&lt;picture&gt;</code> element to implement responsive image solutions on websites.
+            </p>
+
+
+            <P>
+                After applying the HTML elements below, open this page in different devices such as a PC, a tablet or a cell phone to see the magic working. If you don't have several devices in hand, just gradually shorten/enlarge the size of your browser.
+            </P>
+
+
+            <img src="images/responsive-image-code.png" width="80%" alt="responsive image code">
+
+            <p>
+                You can check the details of this feature at <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images">MDN Web Docs</a>.
+            </p>
+
+            <picture>
+                <source media="(max-width: 750px)" srcset="images\james-webb-small.jpg" type="image/jpg">
+
+                <source media="(max-width: 1050px)" srcset="images\james-webb-medium.jpg" type="image/jpg">
+                <img src="images/james-webb-large.jpg" alt="responsive image">
+            </picture>
+
+<h1>ADDING AUDIO</h1>
+
+<p>There are two ways of inserting audio into your page:</p>
+
+<p>
+    <ul>
+        <li>The <code>&lt;audio&gt;</code> tag.</li>
+        <li>The <code>&lt;audio&gt;</code> plus <code>&lt;source&gt;</code> tags.</li>
+    </ul>
+</p>
+
+<h2>The <code>&lt;audio&gt;</code> tag</h2>
+
+            <p>This is "Dubstep", from <a href="https://www.bensound.com/" target="blank" rel="noopener noreferrer">Bensound</a>:</p>
+
+            <p>
+                <audio src="midia/music/bensound-dubstep.mp3" controls></audio>
+            </p>
+
+            <p><img src="images/audio1-dubstep.png" width="70%" alt="music1-code"></p>
+
+<h2>The <code>&lt;audio&gt;</code> plus <code>&lt;source&gt;</code> tags</h2>
+
+            <p>
+                The <code>&lt;source&gt;</code> element allows you to specify alternative audio files which the browser may choose from. The browser will use the first recognized format.
+            </p>
+
+            
+            <p>And here you have "Funkyelement", also from <a href="https://www.bensound.com/" target="blank" rel="noopener noreferrer">Bensound</a>:</p>
+
+            <p>
+                Suppose I had an alternative "ogg" oudio format for this song (which I don't, as you will see in the code. I just staged the snippet to print the image as an example). I would put it just below my main option, which now is the "mp3". If your browser for any reason would not recognize the mp3 file, it would automatically play the ogg one.
+            </p>
+
+
+            <p>
+                <audio controls>
+                    <source src="midia/music/bensound-funkyelement.mp3" type="audio/mpeg">
+                </audio>
+            </p>
+
+
+            <p><img src="images/audio3-funkyelement-alternatives.png" width="70%" alt="music-2 code"></p>
+
+
+<h1>VIDEO</h1>
+
+<h2>1) Hosting video in your own website - the <code>&lt;video&gt</code>; element.</h2>
+
+            <p>
+                Before anything, be careful! Using this element to embed videos may cause a heavy increase of traffic costs to your website. Read more at <a href="https://wave.video/blog/embed-video-on-website/">Wave.video</a>
+            </p>
+
+            <p>
+                To show a video in HTML, use the <code>&lt;video&gt;</code> element:
+            </p>
+
+            <p>Example</p>
+
+            <img src="images/video-code.png" width="60%" alt="video code">
+
+            <p>
+                The <code>controls</code> attribute adds video controls, like play, pause, and volume.
+            </p>
+
+            <p>
+                The <code>poster</code> attribute shows a cover for the video before the first frame.
+            </p>
+
+            <p>
+                The <code>&lt;div class="entity"&gt;</code> puts the video inside a purple box. It's a CSS style I've used some times in this page.
+            </p>
+
+            <p>
+                "It is a good idea to always include <code>width</code> and (I would say OR) <code>height</code> attributes. If height and width are not set, the page might flicker while the video loads". (w3schools)
+            </p>
+
+            <p>
+                Anyway, <mark>I have set here ONLY  the <code>width</code> (at 30%) to avoid disturbing the original  width x height proportion</mark>. The snippet image above is just an example copied from w3schools and placed in my code for some minutes. And I have no "ogg" video file either.
+            </p>
+
+            <p>
+                The <code>&lt;source&gt;</code> element allows you to specify alternative video files which the browser may choose from. The browser will use the first recognized format.
+            </p>
+
+            <p>
+                The text between the <code>&lt;video&gt;</code> and <code>&lt;/video&gt;</code> tags (<em>"Your browser does not support the video tag."</em>) will only be displayed in browsers that do not support the <code>&lt;video&gt;</code> element.
+            </p>
+
+            <p>To start a video automatically when the page is loaded, use the <code>autoplay</code> attribute after the <code>width</code> and <code>height</code> parameters, instead of "<del><code>controls</code></del>".</p>
+
+            <p>
+                Note: Chromium browsers do not allow autoplay in most cases. However, muted autoplay is always allowed.
+            </p>
+
+            <p>
+                You can also add the <code>loop</code> attribute o the video element to keep the video running again and again.
+            </p>
+
+            <p>
+                For complete detais about  the video element, check <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">MDN Web Docs.</a>
+            </p>
+
+            <div class="entity">
+                <video width="40%" poster="images/salvavidas.jpg" controls>
+                    <source src="midia/video/pexels-rulo-davila-5380467.mp4" type="video/mp4">
+                    <source src="midia/video/pexels-rulo-davila-5380467.ogv" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <p>Video from:<cite>"https://www.pexels.com/pt-br/video/asfalto-barco-bote-canal-5380467/" Author: Rulo Davila, at Pexels</cite>
+            </p>
+
+            <p>
+                Poster picture: Photo by <a href="https://pixnio.com/pt/media/sinal-bem-vindo-colete-salva-vidas-texto-vintage" target="blank" rel="noopener noreferrer"> Bicanski</a> at <a href="https://pixnio.com/pt/"  target="blank" rel="noopener noreferrer">Pixnio</a>.
+            </p>
+
+            <p>
+                Teacher Guanabara advices us to use Handbrake video transcoder app to make different versions of our video, but the app doesn't run in my 8.1 Windows. So I'll pretend I have an OGV video just to give you an example of how the code gets.
+            </p>
+
+<h2>
+    2) Embedding Video on Your Website.
+</h2>
+
+            <p>
+                The basic HTML structure for embedding videos is:
+            </p>
+
+            <p>
+                <code>&lt;iframe src=”URL’>&lt;/iframe&gt;</code>
+            </p>
+
+            <p>
+                This snippet of code helps display the video on your website. It pulls the video from its original source, without actually “forcing” you to host it on your website.  This implies that you won't have to worry that a video will affect your website load time, and it also opens up an array of choices between various video hosting services that best suit your needs.
+            </p>
+
+            <p>
+                In a few words, it improves your SEO rating. And if you embed a video from your own YouTube channel it HIGHLY improves your SEO rating, as Guanabara says in the video below.
+            </p>
+
+            <p>
+                One simple way of embedding a video is from YouTube: 
+            </p>
+
+            <ol>
+                <li>Go to YouTube.</li>
+                <li>Navigate to the video you wish to embed.</li>
+                <li>Click the <strong>Share</strong> link below the video, then click the <strong>Embed</strong> link.</li>
+                <li>Click the <strong>Copy</strong> option and the embed link will be highlighted in blue.</li>
+                <li>Paste it to your code.</li>
+            </ol>
+
+            <p>
+                Here's a video embeded this way:
+            </p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h1>
+CSS
+</h1>
+
+<h2>
+    There are three ways you can use to implement CSS into your HTML:
+</h2>
+
+            <ol>
+                <li><span style="color: blue; background-color:  rgb(231, 229, 229);">"INLINE"</span>: Applyed to a specific HTLM element in a line or paragraph; </li>
+                <li><span style="color: blue; background-color: rgb(231, 229, 229);">"INTERNAL"</span>: When it's added in the "head" section of your document;</li>
+                <li><span style="color: blue; background-color:  rgb(231, 229, 229);">"EXTERNAL"</span>: All the CSS lies on a separate document in your project, properly linked to the HTML document. That's the most used way.</li>
+            </ol>
+
+            <p>
+                Read more about it at <a href="https://www.w3schools.com/css/css_howto.asp">w3schools</a>.
+            </p>
+            
+<h3>
+    1) INLINE CSS:
+</h3>
+
+            <P>
+                An inline style may be used to apply a unique style for a single element. To use inline styles, add the style attribute to the relevant element (h1, h2, p, span, div, etc.). The style attribute can contain any CSS property.
+            </P>
+
+            <p>Example:</p>
+
+            <h3 style="color:blue;text-align:center;">This is an h3 heading</h3>
+            <p style="color:red;">This is a paragraph.</p>
+
+            <p>
+                This is the code for the given example:
+            </p>
+
+            <img src="images/CSS-inline-code.png" width="70%" alt="css inline code">
+
+            <p>
+                The disadvantage of this method is that you have to repeat the style in every element of the website, one by one.
+            </p>
+
+            <p>
+                The advantage is that it personalizes a given element.
+            </p>
+
+
+
+
+
+
+
+</body>
+</html>
