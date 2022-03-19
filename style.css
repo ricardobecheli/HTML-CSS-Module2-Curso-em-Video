@@ -1,12 +1,14 @@
 
 header {
+
     background-color: rgb(3, 92, 209);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
-    padding: 1%;
+    padding: 1px;
     text-align: center;
-    margin-left: 15%;
+
+    
     
 }
 
@@ -36,10 +38,11 @@ figure {
   
   ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0%;
+    margin-top: 0px;
     padding: 0;
     width: 15%;
-    background-color: #f1f1f1;
+    background-color: rgb(200, 230, 240);
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -60,4 +63,32 @@ figure {
   li a:hover:not(.active) {
     background-color: #555;
     color: white;
+  }
+
+  /*Fixed Header script*/
+
+  .top-container {
+
+    text-align: center;
+  }
+  
+  .header {
+    background: rgb(3, 92, 209);
+    color: #f1f1f1;
+    text-align: center;
+    font-size: small;
+  }
+  
+  .content {
+
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
   }
