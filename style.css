@@ -65,30 +65,3 @@ figure {
     color: white;
   }
 
-  /*Fixed Header script*/
-
-  .top-container {
-
-    text-align: center;
-  }
-  
-  .header {
-    background: rgb(3, 92, 209);
-    color: #f1f1f1;
-    text-align: center;
-    font-size: small;
-  }
-  
-  .content {
-
-  }
-  
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .sticky + .content {
-    padding-top: 102px;
-  }
