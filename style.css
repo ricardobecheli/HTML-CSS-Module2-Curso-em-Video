@@ -15,8 +15,9 @@ header {
 body {
     background-color: rgb(200, 230, 240);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
+    font-size: 16pt;
     margin: 0;
+
 }
 
 p {
@@ -25,18 +26,22 @@ p {
 }
 
 h1 {
-    color: rgb(1, 9, 82);
+    color: rgb(1, 14, 136);
+
 }
 
 h2 {
-    color: rgb(1, 14, 136); 
+    color: rgb(2, 175, 255);
+
 }
 h3 {
-    color: rgb(1, 17, 158);
+    color: rgb(2, 175, 255);
+
 }
 figure {
     margin-bottom: 50px;
     width: 80%;
+    margin-left: 0%;
 }
 
 /* Here starts the navigation bar test from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical_fixed*/
@@ -56,8 +61,9 @@ ul {
 li a {
   display: block;
   color: #000;
-  padding: 2px 16px;
+  padding: 3px 16px;
   text-decoration: none;
+  font-size: 16px;
 }
 
 li a.active {
@@ -68,4 +74,8 @@ li a.active {
 li a:hover:not(.active) {
   background-color: #555;
   color: white;
+}
+
+div {
+  padding-left: 50px;
 }
