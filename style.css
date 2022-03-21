@@ -52,6 +52,10 @@ figure {
     margin-left: 0%;
 }
 
+ol {
+  line-height: 190%;
+}
+
 /* Here starts the navigation bar test from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical_fixed*/
   
 ul {
