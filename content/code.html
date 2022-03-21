@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon-html-css.png" type="image/x-icon">
+    <title>XXXXXXX</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <header>
+        <h3 style="margin-bottom: 0%; color: rgb(166, 247, 253);">
+            "HTML5 e CSS3 - Módulo 2" <br>XXXXXXXXX</h3>
+        <p style="margin-top: 0%;">"Curso em Vídeo"<br>This is the student's notebook of Ricardo Barros Becheli <br>
+            <a href="mailto:ricardobarrosbecheli@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
+            <a href="https://www.linkedin.com/in/ricardo-becheli-36843659/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+        
+        </p>
+    </header>
+    
+    <ul>
+        <li><a href="../index.html">Introduction - <code>&lt;!DOCTYPE html&gt;</code></a></li>
+        <li><a href="title.html"><code>Title</code></a></li>
+        <li><a href="semantics.html"><code>HTML Semantic Elements</code></a></li>
+        <li><a href="h1.html"><code>Head, header and heading</code></a></li>
+        <li><a href="paragraph.html"><code>Paragraph</code></a></li>
+        <li><a href="formating.html"><code>Formating</code></a></li>
+        <li><a href="entities.html"><code>Entities</code></a></li>
+        <li><a href="emojis.html"><code>Emojis</code></a></li>
+        <li><a href="images.html"><code>Images</code></a></li>
+        <li><a href="favicon.html"><code>Favicon</code></a></li>
+        <li><a href="mark.html"><code>Mark the text</code></a></li>
+        <li><a class="active" href="code.html"><code>How to display code</code></a></li>
+        <li><a href="quotations.html"><code>Quotations</code></a></li>
+        <li><a href="lists.html"><code>Lists</code></a></li>
+        <li><a href="links.html"><code>Links</code></a></li>
+        <li><a href="responsive-images.html"><code>Responsive images</code></a></li>
+        <li><a href="audio.html"><code>Audio</code></a></li>
+        <li><a href="video.html"><code>Video</code></a></li>
+        <li><a href="css-intro.html">CSS-intro</a></li>
+    </ul>
+          
+<div style="margin-left:15%;padding-top: 16px;margin-bottom: 100px;;">
+            
+    <h1>
+        HOW TO DISPLAY CODE
+    </h1>
+    
+    <h2>
+        The <code>&lt;code&gt;</code> tag:
+    </h2>
+    
+                <p>
+                    The code tag above is between the <code>&lt;code&gt;</code> tags, which turns the fonts into <mark>"monospaced"</mark>. The <code>black background and the green font color</code> are CSS styles I have added. The same happens with the open and close tag symbols, which I added through the "HTML entities" we will see in the next topic.
+                </p>
+    
+                <p>
+                    <q>A monospaced font, also called a fixed-pitch, fixed-width, or non-proportional font, is a font whose letters and characters each occupy the same amount of horizontal space. This contrasts with variable-width fonts, where the letters and spacings have different widths. Check the comparison below.</q><a href="https://en.wikipedia.org/wiki/Monospaced_font" target="blank" rel="noopener noreferrer"> (From Wikipedia)</a>.
+                </p>
+    
+                <figure>
+                    <img src="../images/Proportional-vs-monospace-v5.svg.png" width="50%" alt="proportional versus monospaced image comparison." style="margin-bottom: 50px;">
+                </figure>
+    
+                <p>
+                If you just put a JS code snippet into a <code>&lt;code&gt;</code> tag it does not replicate the line breaks and the identing, like the example below:
+                </p>
+    
+                <p>
+        <code>
+            matches.forEach(function(match) {
+                match.parentNode.removeChild(match);
+              });
+        </code>
+                </p>
+    
+                <p>
+                It's just rendered as monospaced font (and - in this particular case - plus the black and green CSS I applied to all the code tags).
+                </p>
+    
+    <h2>
+        The <code>&lt;pre&gt;</code> tag:
+    </h2>
+    
+                <p>
+                So if you really want it to be displayed like the real code in the editor <mark>you must apply the <code>&lt;code&gt;</code> tag <strong>inside</strong> the <code>&lt;pre&gt;</code> tag</mark> (check the source).</p>
+                
+                <p>This tag also displays the text as it is formated at the origin, or PRE-formated (hence the name of the tag).</p>
+                
+                <p>And it renders code as follows:</p>
+    
+    
+                <p>
+        <pre>
+    <code style="line-height: 18px; background-color: rgba(250, 235, 215, 0.30); color: black;">
+            matches.forEach(function(match) { 
+                match.parentNode.removeChild(match);
+            });</code>
+        </pre>
+                </p>
+    
+    
+                <p>Important remarks:<br>
+    
+                    <ol>
+                        <li>Line height was set to 18px so the braces opening was not cut by the second line background color.</li>
+                        <li>Only here I "removed" (by applying - inline - other style upon the black and green) the black and green CSS I applied to all the code tags (with regrets and I've learned from that) .</li>
+                    </ol>
+    
+                </p>
+    
+    <h3>Here's additional information about that from my <a href="https://rocketseat-discover-two.vercel.app/" target="blank" rel="noopener noreferrer">Rocketseat course page</a>:</h3>
+    
+                <p>Please, pay attention where it mentions the HTML entities.</p>
+    
+    
+
+        <h3>&lt;pre&gt; The <em>PREFORMATED TEXT</em> element according to MDN Web Docs:</h3>
+    
+                <p>
+                    What is <a href="https://en.wikipedia.org/wiki/MDN_Web_Docs" target="blank" rel="noopener noreferrer"><img src="../images/MDN_Web_Docs.svg" height="5%" alt="MDN logo"></a> ?
+                </p>
+    
+                <p style="color: black;">
+                    (This is the old logo. The MDN logo has changed as from March 1, 2022 - I coudn't get any to show here. And now I discovered that I didn't get any because so far there's none "ready made": The new logo is built from CSS traces, not a png or jpg image.). </p>
+                    
+                    <p>OPS! Just after writing this (on March 3/2022) I found a png one at Wikipedia, and here it is:</p>
+                
+    
+                <figure>
+                    <a href="https://developer.mozilla.org/en-US/" target="blank" rel="noopener noreferrer" ><img src="../images/MDN_Web_Docs_NEW_logo.svg" width="50%" alt="New MDM Web Docs logo"></a>
+                </figure>
+        
+        <figure>
+            <blockquote>
+                <p>
+                    <q>The HTML element represents preformatted text which is to be presented <mark>exactly as written in the HTML file (*!!!)</mark>. The text is typically rendered using a non-proportional, or <a href="https://en.wikipedia.org/wiki/Monospaced_font" target="blank" rel="noopener noreferrer">monospaced</a>, font. Whitespace inside this element is displayed as written</q>. <cite><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre" target="blank" rel="noopener noreferrer">Check it at MDN</a></cite>
+        
+                </p>
+            </blockquote>
+        </figure>
+        
+                <p><mark>*!!! Be careful !!! - It's not quite like that</mark>, as the very site continues:</p>
+        
+                <p><q>If you have to display reserved characters such as <code>&lt;</code>, <code>&gt;</code>, <code>&amp;</code> and <code>"</code> within the &lt;pre&gt; tag, they must be <strong style="color: black;"><mark>escaped</mark></strong> using their respective <strong style="color: black;">HTML <mark>entity</mark></strong>.</q></p>
+
+    
+            <p>IN OTHER WORDS, YOU MUST CANCELL THE HTML "CODE EFFECT" OF THOSE SYMBOLS (when displaying code) AS FOLLOWS:</p>
+
+        <h2 style="color: black;">Do you remember what HTML <mark>entities</mark> are?</h2>
+        
+                <h3>We've seen them  <a href="#above">above (check first)</a>.</h3>
+                
+                <p>Now let's review and see where they fit:
+        
+                <p>Entities are used to return / display special symbols.</p>
+        
+                <p>"An HTML entity  is used to display invisible and reserved characters that would otherwise be interpreted as HTML code.</p>
+        
+                <p>n HTML entity is a piece of text, or string, that begins with an ampersand ( & ) and ends with a semicolon ( ; )./p>
+        
+                <p>For instance, HTML will interpret the <q>less-than</q> sign ( &lt; ) as a tag opening if you don't write it as an entity.</p>
+
+    
+        <h2>The <code>&amp;lt;</code> entity makes <span style="color: blue;">&lt;</span></h2>
+                <p>
+                    When I type the 3 characters above together (without scaping through an entity) they make this symbol: &lt;</p>
+                <p>
+                    But if I want to show you the code that makes &lt; I have to replace the & (ampersand) for its respactive entity, which is "&amp;amp".
+                </p>
+                <p><strong>lt</strong> (LT in lowercase) means <q>LESS THAN.</q></p>
+                <P>Always with a semicolon at the end.</P>
+    
+        <h2>The <code>&amp;gt;</code> entity makes <span style="color: blue;">&gt;</span> </h2>
+                <p>The same as above applies here, with "gt" instead of that.</p>
+    
+    
+
+        <h3>Here we have 8 symbols written this way:</h3>
+                <ol>
+                <li>&reg;</li>
+                <li>&copy;</li>
+                <li>&trade;</li>
+                <li>&yen;</li>
+                <li>&phone;</li>
+                <li>&female;</li>
+                <li>&spades;</li>
+                <li>&numero;</li>
+                </ol>
+        
+        <h3><a  href="http://arquivo.devmedia.com.br/artigos/devmedia/html-entities.html"  target="blank" rel="noopener noreferrer">Through this link you to to a COMPLETE LIST  of html entities (more than 1,500), which will open in a new tab.</a></h3>
+
+</div>
+
+
+    <footer>
+        Thank you.
+    </footer>
+</body>
+</html>
+
+
+
+
