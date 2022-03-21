@@ -38,6 +38,14 @@ h3 {
     color: rgb(2, 175, 255);
 
 }
+
+footer {
+  background-color: rgb(3, 92, 209);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
 figure {
     margin-bottom: 50px;
     width: 80%;
