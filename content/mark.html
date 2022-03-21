@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../images/favicon-html-css.png" type="image/x-icon">
-    <title>Emojis</title>
+    <title>Mark the text</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 
@@ -13,7 +13,7 @@
 
     <header>
         <h3 style="margin-bottom: 0%; color: rgb(166, 247, 253);">
-            "HTML5 e CSS3 - Módulo 2" <br>Emojis</h3>
+            "HTML5 e CSS3 - Módulo 2" <br>Mark the text</h3>
         <p style="margin-top: 0%;">"Curso em Vídeo"<br>This is the student's notebook of Ricardo Barros Becheli <br>
             <a href="mailto:ricardobarrosbecheli@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
@@ -30,10 +30,10 @@
         <li><a href="paragraph.html"><code>Paragraph</code></a></li>
         <li><a href="formating.html"><code>Formating</code></a></li>
         <li><a href="entities.html"><code>Entities</code></a></li>
-        <li><a class="active" href="emojis.html"><code>Emojis</code></a></li>
+        <li><a href="emojis.html"><code>Emojis</code></a></li>
         <li><a href="images.html"><code>Images</code></a></li>
         <li><a href="favicon.html"><code>Favicon</code></a></li>
-        <li><a href="mark.html"><code>Mark the text</code></a></li>
+        <li><a class="active" href="mark.html"><code>Mark the text</code></a></li>
         <li><a href="how to display code.html"><code>How to display code</code></a></li>
         <li><a href="quotations.html"><code>Quotations</code></a></li>
         <li><a href="lists.html"><code>Lists</code></a></li>
@@ -46,36 +46,26 @@
           
 <div style="margin-left:15%;padding-top: 16px;margin-bottom: 100px;;">
             
-    <h1>Emojis</h1>
-
-        <p>Emojis codes are a little more complicated to insert than entities.</p>
-        
-        <p>First go to a website like the one linked below and:</p>
-            <ol>
-                <li>Choose the emoji;</li>
-                <li>Scroll down until you find the word "Codepoints".</li>
-                <li>Copy that code and paste it in your editor.</li>
-                <li>VERY IMPORTANT COMPLICATION: Remove the u+ and replace it with &#x then add a ; (semicolon) at the end.</li>
-                <li>Could be easier. Should be easier. Must be easier!!!</li>
-                <li>Of course when you get to the site linked below you may just copy and paste the emoji itself (just like that: 😊), but it won't work in some browsers, as teacher Guanabara said.</li>
-            </ol>
-
-
-        <p><a href="https://emojipedia.org/" target="blank" rel="noopener noreferrer">Through this link you to to a COMPLETE LIST of emojis and their codes.</a></p>
-
-        <p>And here we have some emojis coded the complicated (and only) way to code emojis:</p>
-            <ol>
-                <li>&#x1F648</li>
-                <li>&#x1F440</li>
-                <li>&#x1F60A</li>
-            </ol>
-
-
-
-
-
-
-
+    <h1>
+        <mark>Mark</mark> the text
+    </h1>
+    
+        <p>The <code>&ltmark&gt;</code> tag makes the above <code>&lt;h1&gt;</code> heading (which I had "styled" to green) return to its original color, black.</p>
+    
+        <p>Suppose you want it to continue the green CSS style you had previously defined for all <code>&lt;h1&gt;</code> tags. You have to force the green CSS style by applying an INLINE CSS to the <code>&ltmark&gt;</code> tag opening as follows:</p>
+    
+    <h1 style="margin-left: 200px;">
+        <mark style="color:darkgreen;">Mark</mark> the text
+    </h1>
+    
+        <p>And if the yellow mark doesn't match your overall background-color, just do the same as above adding a background-color to the mark's opening tag style. See:</p>
+    
+    <h1 style="margin-left: 200px;">
+        <mark style="color:darkgreen; background-color: lime;">Mark</mark> the text
+    </h1>
+    
+        <p>Mark the text. Don't mark bobeira!</p>
+         
 </div>
 
 

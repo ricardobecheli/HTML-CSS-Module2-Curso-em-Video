@@ -9,167 +9,18 @@
 </head>
 
 <body>
-          
-
-
-<h1><a id="above">Entities</a></h1>  
-           
-
-<h1>Images</h1>
-
-
-        <p>Always be sure that you are not violating copyrights when pasting images made by someone else into your website.</p>
-        <p>There are royalty free images around the web, like:</p>
-        <p><a href="https://pixnio.com/pt/" target="blank" rel="noopener noreferrer">Pixnio</a></p>
-        <p>Or</p>
-        <p><a href="https://pxhere.com/" target="blank" rel="noopener noreferrer">Pxhere</a></p>
-        <p>Or many others.</p>
-        <p>This canyon image is from Pixnio. Very easy. You don't even have to register in their website. And you have size options. You can even chose a personalized one with the width or height of your preference.</p>
-
-        <div class="canyon">
-            <img src="images/CANYON-PIXNIO-1211955-836x675.jpg" width="100%" alt="Pixnio image.">
-        </div>
-
-
-    <h2>How to add images to your page</h2>
-
-    <h3>1) From a folder of yours:</h3>
-
-        <p>First, download the image to your "images" folder within your HTML project.</p>
-        <p>(If you're a beginner like me, going through Visual Studio Code tutorials is not a bad idea)</p>
-        <p>Then, in the VSCode editor: just type <code>img</code> and Emmet, the automatic assistant, will write the rest for you. After it's done, place the cursor in between the first pair of quotation marks (src="") of the "img" tag, press ctrl+spacebar and chose your image from your folder on the dialogue box.</p>
-        <p>The second pair of quotation marks (alt="") of the "img" tag are for you to write a quick description of the picture. It serves to appear in the screen in case the image doesn't load for any reason AND to be read out loud for those who wish the browser to do that.</p>
-        
-
-    <h3>2) Straight from another website:</h3>
-
-        <p>Copying an image <strong>address</strong>   from another website is an alternative way of adding an image to your page.</p>
-        <p>The disadvantage is that the image in your page will always depend on the existence of the original one and more: it must be exactly where it was when you copied the eddress. If their website crashes, your linked image crashes. If they change anything in the addres, the link is gone and so does the image.</p>
-        <p>Just right click any image of any website and choose "copy image address" (or whatever is closer to that). Then, paste it between the first pair of quotation marks (src="") of the "img" tag.</p>
-        <p>Again: The second pair of quotation marks (alt="") of the "img" tag are for you to write a quick description of the picture. It serves to appear in the screen in case the image doesn't load for any reason AND to be read out loud for those who wish the browser to do that.</p>
-        <p>This is an example (linked from G1.com):</p>
-        <img src="https://s2.glbimg.com/DHCxxKd2oxxJwWNSGcbtwhTDapA=/0x0:1200x5562/640x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/8/c/wBz1OySaygj4v3cLRJTw/0102-cadeira-escritorio-ergonomia.jpg" alt="Imagem do G1" width="50%">
-
-    <h2>Types of images</h2>
-
-        <p>In a few words:</p>
-
-        <hr>
-
-        <p>JPG (or JPEG) Is better if you want a big image with less weight, like this one:</p>
-
-
-        <div class="pic">
-        <img src="images/landscape.jpg" width="100%" alt="swimming pool near the ocean landdscape">
-        </div>
-    <hr>
-
-    <div class="blue">
-
-        <p style="font-size:x-large; text-align: justify;">PNG images are better if you want the picture itself to have a transparent background (and no picture frame), like these ones:</p>
-
-        
-            <div class="balls-hand">
-                <img src="images/baloon.png" alt="baloons" width="auto">
-            </div>
-
-            <div class="balls-hand">
-                <img src="images/hand.png" alt="hand" width="auto" >
-            </div>
-
-            <div class="balls-hand">           
-                <img src="images/spiderman.png" alt="baloons" width="auto">
-            </div>
-        
 
 
 
-    </div>
-        <p style="text-align: justify;">I've implemented a blue background (in a "div" "class" called "balls-hand" inside another div class called "blue" in the head sector of this HTML document) to make it easier to check the image's transparency and to align them. <br>Images from <a href="https://www.pngwing.com/en/search?q=free+download" target="blank" rel="noopener noreferrer">pngwing.com</a> .</p>
-
-        <hr>
-        <img src="images/baloon.png" alt="baloons" width="20%">
-
-        <p>If you want to optimize the image, please use GIMP freeware (the "free photoshop") to "save for web" (a plugin) and automatically reduce a lot of the image's weight without loosing much quality.</p>
-
-    <hr style="margin-bottom: 80px;">
-     
-
-<h1>Favicon</h1>
-
-        <p>"A favicon is a small icon or collection of icons associated with a website, web page, or web application. It's displayed within the browser tabs and bookmarks bar".  <a href="https://favicon.io/" target="blank" rel="noopener noreferrer">Favicon.io</a></p>
-
-        <p>"A favicon is used to help users visually identify websites, web pages, and web applications within browser tabs, bookmarks, shortcuts, and address bars more easily. It's important to have a favicon for your website for brand recognition so that your users can easily identify your site in their browser tabs and bookmarks". <a href="https://favicon.io/" target="blank" rel="noopener noreferrer">Favicon.io</a></p>
-
-        <p>Examples of favicon:</p>
-        <hr>
-        <img src="images/example01-favicon.jpg" alt="Example of favicon-01" width="25%">
-        <hr>
-        <img src="images/example02-favicon.jpg" alt="Example of favicon-02" width="25%">
-        <hr>
 
 
-        
 
-    <h2>What are common favicon file formats?</h2>
-    <h3>ICO - favicon.ico</h3>
-        <p>"The most common favicon formats are ICO, PNG, and SVG, but there are additional formats for specific browsers or devices. The ICO file format was developed by Microsoft and is the original file format for the favicon. The format is unique because it allows for multiple small images within the same file. This is advantageous because the small icons required for a favicon in ICO format (16x16, 32x32, and 48x48 pixels) can be scaled and optimized independently. At small dimensions you can't rely on the browser to automatically resize your icon in an optimal way. The ICO format is supported by all browsers and it's the only format that IE5 through IE10 supports". <a href="https://favicon.io/tutorials/what-is-a-favicon/" target="blank" rel="noopener noreferrer">Favicon.io</a></p>
-
-    <h3>PNG - favicon.png</h3>
-
-        <p>"The PNG format is a nice format because it's a format that most people are used to and doesn't require any special tools to create. With modern screens being high resolution the original problem of small icon dimensions for small resolutions no longer exists. For browsers that support the PNG favicon format oftentimes the quality of the favicon displayed within the browser tab or bookmarks bar will be higher than the ICO format. The disadvantage of the PNG format is that it's not compatible with IE5 through IE10". <a href="https://favicon.io/tutorials/what-is-a-favicon/" target="blank" rel="noopener noreferrer">Favicon.io</a></p>
-
-    <h3>SVG - favicon.svg</h3>
-
-        <p>"The SVG format has benefits over the PNG and ICO formats, but doesn't have great browser support yet. SVG files (Scalable Vector Graphics) are very lightweight and, being a "vector" graphic, they are infinitely scalable. This means that image quality is superb without sacrificing load times for heavy images. Only Chrome, Firefox, and Opera support SVG format favicons". <a href="https://favicon.io/tutorials/what-is-a-favicon/" target="blank" rel="noopener noreferrer">Favicon.io</a></p>
-
-    <h2>How to add a favicon to the page/site:</h2>
-
-        <p>In the head area of the HTML code you type <code>link</code>. One of the Emmet Abbreviations the assistant will suggest says <code>link : favicon</code>.</p>
-
-            <p>
-                <span style="color: yellow; background-color: gray;">
-                Delete whatever comes written in the "href" quotation marks</span> and press ctrl+enter to choose your own favicon image from your project's folder (all this in the Visual Studio Code, of course).
-            </p>
-
-            <p>
-               And 
-                <span style="color: yellow; background-color: gray;">don't change anytinng else</span>  in this code line given by Emmet. (Those colors here are some "span" + "style" testing.) 
-            </p>
-
-<h1>Bold and Italic</h1>
-            
-            <p>Here I make a <strong>bold</strong> word using the <code>&lt;strong&gt;</code> tag.</p>
-            
-            <p style="color: red;">Better NEVER use the tag <code>&lt;b&gt;</code> to make bold. It's not semantic. This tag <q>should be used to markup text as bold without conveying any extra importance, for example in article abstracts, where the beginning of an article is set in bold text</q>. <br>(quackit.com).</p>
-                        
-            <p>And here's an <em>italic</em> word made with the <code>&lt;em&gt;</code> tag.</p>
-            <p style="color: red;">Avoid using the tag <code>&lt;i&gt;</code> for italic. It's not a much appropriate semantic element.</p>
 
 <h1>Wrap with abbreviation (a VS Code shortcut)</h1>
 
             <p>To put any lenght of text (from a single letter to a group of paragraphs) inside a tag:</p>
             <p>Just press <em>Ctrl + shift + p</em> then find "wrap with abbreviation", select it with <em>enter</em> and type only the letters that represent the tag you want. Only the letters, without the &lt; and &GT; signs. And <em>enter</em> to finalize. Ready! It's wrapped. The next times you do that, just press ctrl+shift+p and the option will already be there in the recent history and you proceed with the rest of the instructions above. </p>
 
-<h1>
-    <mark>Mark</mark> the text
-</h1>
-
-<p>The <code>&ltmark&gt;</code> tag makes the above <code>&lt;h1&gt;</code> heading (which I had "styled" to green) return to its original color, black.</p>
-
-<p>If you want it to continue the green CSS style I have defined for all <code>&lt;h1&gt;</code> tags you have to force it by applying an INLINE CSS to the <code>&ltmark&gt;</code> tag opening as follows:</p>
-
-<h1 style="margin-left: 200px;">
-    <mark style="color:darkgreen;">Mark</mark> the text
-</h1>
-
-<p>And if the yellow mark doesn't match your overall background-color, just do the same as above adding a background-color to the mark's opening tag style. See:</p>
-
-<h1 style="margin-left: 200px;">
-    <mark style="color:darkgreen; background-color: lime;">Mark</mark> the text
-</h1>
-
-        <p>Mark the text. Don't mark bobeira!</p>
 
 <h1>
     HOW TO DISPLAY CODE
