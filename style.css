@@ -56,6 +56,18 @@ ol {
   line-height: 190%;
 }
 
+.plainlist {
+  list-style-type: revert;
+  margin: revert;
+  padding: revert;
+  width: revert;
+  background-color: revert;
+  position: revert;
+  height: revert;
+  overflow: revert;
+  height: revert;
+}
+
 /* Here starts the navigation bar test from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical_fixed*/
   
 ul {

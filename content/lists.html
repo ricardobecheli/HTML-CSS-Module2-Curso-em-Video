@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon-html-css.png" type="image/x-icon">
+    <title>Lists</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <header>
+        <h3 style="margin-bottom: 0%; color: rgb(166, 247, 253);">
+            "HTML5 e CSS3 - Módulo 2" <br>Lists</h3>
+        <p style="margin-top: 0%;">"Curso em Vídeo"<br>This is the student's notebook of Ricardo Barros Becheli <br>
+            <a href="mailto:ricardobarrosbecheli@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
+            <a href="https://www.linkedin.com/in/ricardo-becheli-36843659/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+        
+        </p>
+    </header>
+    
+    <ul>
+        <li><a href="../index.html">Introduction - <code>&lt;!DOCTYPE html&gt;</code></a></li>
+        <li><a href="title.html"><code>Title</code></a></li>
+        <li><a href="semantics.html"><code>HTML Semantic Elements</code></a></li>
+        <li><a href="h1.html"><code>Head, header and heading</code></a></li>
+        <li><a href="paragraph.html"><code>Paragraph</code></a></li>
+        <li><a href="formating.html"><code>Formating</code></a></li>
+        <li><a href="entities.html"><code>Entities</code></a></li>
+        <li><a href="emojis.html"><code>Emojis</code></a></li>
+        <li><a href="images.html"><code>Images</code></a></li>
+        <li><a href="favicon.html"><code>Favicon</code></a></li>
+        <li><a href="mark.html"><code>Mark the text</code></a></li>
+        <li><a href="code.html"><code>How to display code</code></a></li>
+        <li><a href="quotations.html"><code>Quotations</code></a></li>
+        <li><a class="active" href="lists.html"><code>Lists</code></a></li>
+        <li><a href="links.html"><code>Links</code></a></li>
+        <li><a href="responsive-images.html"><code>Responsive images</code></a></li>
+        <li><a href="audio.html"><code>Audio</code></a></li>
+        <li><a href="video.html"><code>Video</code></a></li>
+        <li><a href="css-intro.html">CSS-intro</a></li>
+    </ul>
+          
+<div style="margin-left:15%;padding-top: 16px;margin-bottom: 100px;;">
+            
+    <h1>Lists</h1>
+        
+    <h3>1) Ordered lists</h3>
+
+    <p>An ordered list starts with the <code>&lt;ol&gt;</code> tag. Each list item starts with the <code>&lt;li&gt;</code> tag.</p>
+
+    <p>Example:</p>
+
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+  
+    <p>
+        The code looks like that:
+    </p>
+
+    <img src="images/ordered-list.png" width="30%" alt="Ordered List Code">
+
+    <p>
+        This screenshot was obtained by VSCode's CodeSnap extention I have just installed.
+    </p>
+
+<h4>1.1 - Ordered HTML List - The Type Attribute</h4>
+
+
+    <p>Once you start typing the word "type", Emmet gives you the hints:</p>
+
+    <img src="../images/emmet-ordered-lists-type.jpg" width="70%" alt="Emmet gives the type hints">
+
+    <p>1.1.1) type="1"	The list items will be numbered with numbers (default)</p>
+    <p>Example:</p>
+    <ol type="1">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+    <p>1.1.2) type="A"	The list items will be numbered with uppercase letters</p>
+    <p>Example:</p>
+    <ol type="A">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+      <p>A syntax example taken from Type A:</p>
+      <img src="../images/type-A-ordered-list.png" width="30%" alt="">
+
+    <p>1.1.3) type="a"	The list items will be numbered with lowercase letters</p>
+    <p>Example:</p>
+    <ol type="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+    <p>1.1.4) type="I"	The list items will be numbered with uppercase roman numbers</p>
+    <p>Examnple:</p>
+    <ol type="I">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+    <p>1.1.5) type="i"	The list items will be numbered with lowercase roman numbers</p>
+    <p>Examnple:</p>
+    <ol type="i">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+
+<h3>1.2) The <code>start</code> attribute:</h3>
+
+    <ol type="1" start="7">
+        <li>If you...</li>
+        <li>Had stopped the list at, let's say, number 6, for instance...</li>
+        <li>And wishes to continue from where it sopped.</li>
+    </ol>
+
+    <p>The code stays this way:</p>
+
+    <img src="../images/ordered-start.png" width="60%" alt="code re-start the list">
+
+
+
+<h3>2) Reversed order lists</h3>
+
+    <p>The <code>reversed</code> attribute is a boolean attribute. When present, it specifies that the list order should be descending (9,8,7...), instead of ascending (1, 2, 3...).</p>
+
+    <p>Example:</p>
+
+    <ol reversed>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+      <p>Syntax example:</p>
+
+      <img src="../images/reversed-order-list.png" width="30%" alt="Reversed list code example">
+
+
+<h3>3) Unordered lists</h3>
+
+      <h4>
+          Important discovery:
+      </h4>
+
+      <p>
+          The navigation bar was created in an "unordered list" that has its respective CSS style. Therefore, ALL unordered lists other than the nav bar display confused.
+      </p>
+
+      <p>
+          To avoid that I was turning all the previous pages &lt;ul&gt; into &lt;ol&gt;.
+
+      </p>
+
+      <p>
+          But not now. Now it's impossible because I must explain and display an unordered list as it is without any CSS styles.
+      </p>
+
+      <p>
+          So I found a solution for that at <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/revert" target="blank" rel="noopener noreferrer">MDN Web Docs</a>. It's called "revert", which is a CSS keyword.
+      </p>
+
+      <p>
+          But I had to apply this keyword only to this page's examples, not to the nav bar. So I created an inline class called <mark>"plainlist"</mark> in all the &lt;ul&gt; examples and, in the"style" linkes document I attributed <mark>"revert"</mark> to every CSS style given to the original &lt;ul&gt;.
+      </p>
+
+      <p>
+          And... IT WORKED!!! U-HUUUU!!!
+      </p>
+
+      <p>The HTML code is this:</p>
+
+      <img src="../images/revert-css-code-html-side.png" width="35%" alt="how to revert css- the html side code.">
+      
+      <p>And the CSS code is that:</p>
+      
+      <img src="../images/revert-css-code-css-side.png" width="80%" alt="how to revert css- the css side code.">
+
+    <p>The HTML <code>&lt;ul&gt;</code> tag defines an unordered (bulleted) list. (Same syntax as <code>&lt;ol&gt;</code>).</p>
+
+    <p>Example:</p>
+
+    <ul class="plainlist">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+      
+
+
+<h3>4) Nested lists 1</h3>
+
+    <p><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_nested" target="blank" rel="noopener noreferrer">w3-nested</a></p>
+
+
+        <ul class="plainlist">
+            <li>Fruit
+              <ul class="plainlist">
+                <li>Bananas</li>
+                <li>Apples
+                  <ul class="plainlist">
+                    <li>Green</li>
+                    <li>Red</li>
+                  </ul>
+                </li>
+                <li>Pears</li>
+              </ul>
+            </li>
+            <li>Vegetables</li>
+            <li>Meat</li>
+          </ul>
+
+    
+    <p>See how the nested list code is:</p>
+
+    <img src="../images/nested-list.png" width="70%" alt="nested list code">
+
+
+<h3>4.1) Nested lists 2 </h3>
+
+<h4>Example of programming languages:</h4>
+
+    <ol>
+        <li>Old ones</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Fortram</li>
+                <ul class="plainlist">
+                    <li>Fort1</li>
+                    <li>Fort2</li>
+                </ul>
+            <li>Visual Basic</li>
+            <li>Delphi</li>
+        </ol>
+
+        <li>New ones</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+
+    </ol>
+
+    <p>Just to show the feature I set the start of the "new ones" to "5", meaning the 5th letter of the sequence.</p>
+
+    <p>And I invented "Fort1" and "Fort2" just to show you that the unordered nesting cause a progressive indentation. Like the fruits in "nested lists 1" above.</p>
+
+
+<h3>5) Description lists</h3>
+
+    <p>A description list is a list of <mark>terms</mark>, with a <mark>description</mark> of each term.</p>
+
+    <p>The <code>&lt;dl&gt;</code> tag defines the description list</p>
+
+    <p>The <code>&lt;dt&gt;</code> tag defines the term (name)</p>
+
+    <p>And the <code>&lt;dd&gt;</code> tag describes each term:</p>
+
+    <p>Example (I've set a 100px margin left to indent the whole example):</p>
+
+    <dl style="margin-left: 100px;">
+        <dt>Coffee</dt>
+        <dd>A black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>A white cold drink</dd>
+    </dl>
+
+    <p>Syntax example:</p>
+
+    <img src="../images/description-list.png" width="50%" alt="description list code image">
+
+    <p>
+        Note that the example is not indented because the <code>code</code> is indented. It's because of the 100px margin I have set.
+    </p>
+            
+
+
+
+
+
+            
+            
+</div>
+
+
+    <footer>
+        Thank you.
+    </footer>
+</body>
+</html>
+
+
+
+
