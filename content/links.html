@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon-html-css.png" type="image/x-icon">
+    <title>Links</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <header>
+        <h3 style="margin-bottom: 0%; color: rgb(166, 247, 253);">
+            "HTML5 e CSS3 - Módulo 2" <br>Links</h3>
+        <p style="margin-top: 0%;">"Curso em Vídeo"<br>This is the student's notebook of Ricardo Barros Becheli <br>
+            <a href="mailto:ricardobarrosbecheli@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
+            <a href="https://www.linkedin.com/in/ricardo-becheli-36843659/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+        
+        </p>
+    </header>
+    
+    <ul>
+        <li><a href="../index.html">Introduction - <code>&lt;!DOCTYPE html&gt;</code></a></li>
+        <li><a href="title.html"><code>Title</code></a></li>
+        <li><a href="semantics.html"><code>HTML Semantic Elements</code></a></li>
+        <li><a href="h1.html"><code>Head, header and heading</code></a></li>
+        <li><a href="paragraph.html"><code>Paragraph</code></a></li>
+        <li><a href="formating.html"><code>Formating</code></a></li>
+        <li><a href="entities.html"><code>Entities</code></a></li>
+        <li><a href="emojis.html"><code>Emojis</code></a></li>
+        <li><a href="images.html"><code>Images</code></a></li>
+        <li><a href="favicon.html"><code>Favicon</code></a></li>
+        <li><a href="mark.html"><code>Mark the text</code></a></li>
+        <li><a href="code.html"><code>How to display code</code></a></li>
+        <li><a href="quotations.html"><code>Quotations</code></a></li>
+        <li><a href="lists.html"><code>Lists</code></a></li>
+        <li><a class="active" href="links.html"><code>Links</code></a></li>
+        <li><a href="responsive-images.html"><code>Responsive images</code></a></li>
+        <li><a href="audio.html"><code>Audio</code></a></li>
+        <li><a href="video.html"><code>Video</code></a></li>
+        <li><a href="css-intro.html">CSS-intro</a></li>
+    </ul>
+          
+<div style="margin-left:15%;padding-top: 16px;margin-bottom: 100px;;">
+            
+    <h1>Links</h1>
+        
+    <p>
+        "Links are found in nearly all web pages. Links allow users to click their way from page to page". (w3schools)
+    </p>
+
+    <p>
+        More than that, the <code>&lt;a&gt;</code> HTML <strong>anchor</strong> element, with its <code>href</code> attribute, can create hyperlinks to:
+    </p>    
+    
+        <ul class="plainlist">
+            <li>web pages,</li>
+            <li>files (including video and sound),</li>
+            <li>email addresses,</li>
+            <li>locations in the same page,</li>
+            <li>or anything else a URL can address.</li>
+        </ul>
+    
+
+    <p>
+        MUCH more can be said about links and the <code>&lt;a&gt;</code> tag and you may read it at <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="blank" rel="oopener noreferrer">MDN Web Docs</a>, but here we will stick to the following:
+    </p>
+
+    <ol>
+        <li>External links (When there's a full web address in the href attribute, it is called <strong>absolute URL</strong>).</li>
+        <li>Internal links:</li>
+            <ol type="a">
+                <li>To pages of the same website (A local link - a link to a page within the same website - is specified with a <strong>relative URL</strong> (without the "https://www" part):</li>
+                    <ol type="i">
+                        <li>Belonging to the same folder as the current one.</li>
+                        <li>Stored in another folder of the same website.</li>
+                    </ol>
+                <li>To a certain line (or section) of the same page.</li>
+                <li>A download link.</li>
+            </ol>
+    </ol>
+
+<h2>1) External links</h2>
+
+    <p>This kind of link is made to an <strong>absolute URL</strong> (includes the "<code>https://www</code>" part). Example:</p>
+
+    <p>
+        You can access <a href="https://github.com/ricardobecheli" target="blank" rel="noopener noreferrer" >my public repository at Github by clicking here</a>.
+    </p>
+
+
+    <p>The HTML element:</p>
+    <p><code>&lt;a href=""&gt;&lt;/a&gt;</code></p>
+
+    <p><code>&lt;a&gt;</code> means anchor and <code>href</code> means hypertext reference.</p>
+
+    And how it's filled:
+
+    <p><code>&lt;a href="<span style="color: rgb(160, 5, 5);">the URL comes here</span>"&gt;<span style="color: blue;">and the text that will become hyperlink comes here</span>&lt;/a&gt;</code></p>
+
+<h3>And there's something very important:</h3>
+
+    <p>
+        As you can see in the code below, there are a "target" and a "rel" attributes, meaning:
+    </p>
+
+        <ol type="a">
+            <li><span style="color: red;"><em>target="blank"</em></span> means that the target page will be opened in a new tab of your browser.</li>
+            <li><span style="color: red;"><em>rel="noopener noreferrer"</em></span> means that the opening of a new tab will avoid undesired invaders (crackers). Not doing this can be risky.</li>
+        </ol>
+
+    <p>Check the code:</p>
+
+        <img src="../images/href-code.png" width="100%" style="margin-bottom: 50px;" alt="The href code">
+
+
+<h2>2) Internal links</h2>
+
+<h3>2.1) Link to pages of the same website:</h3>
+
+    <p>This kind of link is made to a <strong>relative URL</strong> (without the "<code>https://www</code>" part).
+    </p>
+
+
+<h4>2.1.1) Belonging to the same folder as the current one:</h4>
+
+    <p>
+        Just click on any link of the navigation bar, except the "Introduction" one, which is the index and is in the root directory.
+    </p>
+
+<h4>2.1.2) Stored in another folder of the same website.</h4>
+
+
+    <p>
+        Just click on the "Introduction" link of the nav bar.
+    </p>
+
+
+
+
+
+<h3>2.2) Link to a certain line (or section) of the same page, in 2 steps:</h3>
+        
+    <p>a) First, you use an <code>id</code> to give an unique name to the destination point of the future link.</p>
+    <img src="../images/above1.png" width="50%" style="margin-bottom: 30px;" alt="Code: anchor in the same page.">
+
+    <p>b) And soon after that you make the link through the usual <code>&lt;a&gt;</code> tag, pointing the hypertext reference (<code>href</code>) to the <code>id</code> through a <code>#</code> plus the name of the id.</p>
+    <img src="../images/above2.png" width="70%"style="margin-bottom: 50px;" alt="Code: link to the anchor in the same page.">
+
+<h3>2.3) Download link:</h3>
+
+    <p>From here you can download a <a href="book/Internet History in Portuguese.pdf">PDF book from Curso Em Vídeo</a> about the Internet History.</p>   
+           
+</div>
+
+
+    <footer>
+        Thank you.
+    </footer>
+</body>
+</html>
+
+
+
+

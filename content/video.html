@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon-html-css.png" type="image/x-icon">
+    <title>Video</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <header>
+        <h3 style="margin-bottom: 0%; color: rgb(166, 247, 253);">
+            "HTML5 e CSS3 - Módulo 2" <br>Video</h3>
+        <p style="margin-top: 0%;">"Curso em Vídeo"<br>This is the student's notebook of Ricardo Barros Becheli <br>
+            <a href="mailto:ricardobarrosbecheli@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
+            <a href="https://www.linkedin.com/in/ricardo-becheli-36843659/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+        
+        </p>
+    </header>
+    
+    <ul>
+        <li><a href="../index.html">Introduction - <code>&lt;!DOCTYPE html&gt;</code></a></li>
+        <li><a href="title.html"><code>Title</code></a></li>
+        <li><a href="semantics.html"><code>HTML Semantic Elements</code></a></li>
+        <li><a href="h1.html"><code>Head, header and heading</code></a></li>
+        <li><a href="paragraph.html"><code>Paragraph</code></a></li>
+        <li><a href="formating.html"><code>Formating</code></a></li>
+        <li><a href="entities.html"><code>Entities</code></a></li>
+        <li><a href="emojis.html"><code>Emojis</code></a></li>
+        <li><a href="images.html"><code>Images</code></a></li>
+        <li><a href="favicon.html"><code>Favicon</code></a></li>
+        <li><a href="mark.html"><code>Mark the text</code></a></li>
+        <li><a href="code.html"><code>How to display code</code></a></li>
+        <li><a href="quotations.html"><code>Quotations</code></a></li>
+        <li><a href="lists.html"><code>Lists</code></a></li>
+        <li><a href="links.html"><code>Links</code></a></li>
+        <li><a href="responsive-images.html"><code>Responsive images</code></a></li>
+        <li><a href="audio.html"><code>Audio</code></a></li>
+        <li><a class="active" href="video.html"><code>Video</code></a></li>
+        <li><a href="css-intro.html">CSS-intro</a></li>
+    </ul>
+          
+<div style="margin-left:15%;padding-top: 16px;margin-bottom: 100px;;">
+            
+    <h1>Video</h1>
+        
+    <h2>1) Hosting video in your own website - the <code>&lt;video&gt</code>; element.</h2>
+
+    <p>
+        Before anything, be careful! Using this element to embed videos may cause a heavy increase of traffic costs to your website. Read more at <a href="https://wave.video/blog/embed-video-on-website/">Wave.video</a>
+    </p>
+
+    <p>
+        To show a video in HTML, use the <code>&lt;video&gt;</code> element:
+    </p>
+
+    <p>Example</p>
+
+    <img src="../images/video-code.png" width="60%" alt="video code">
+
+    <p>
+        The <code>controls</code> attribute adds video controls, like play, pause, and volume.
+    </p>
+
+    <p>
+        The <code>poster</code> attribute shows a cover for the video before the first frame.
+    </p>
+
+    <p>
+        The <code>&lt;div class="entity"&gt;</code> puts the video inside a purple box. It's a CSS style I've used some times in this page.
+    </p>
+
+    <p>
+        "It is a good idea to always include <code>width</code> and (I would say OR) <code>height</code> attributes. If height and width are not set, the page might flicker while the video loads". (w3schools)
+    </p>
+
+    <p>
+        Anyway, <mark>I have set here ONLY  the <code>width</code> (at 30%) to avoid disturbing the original  width x height proportion</mark>. The snippet image above is just an example copied from w3schools and placed in my code for some minutes. And I have no "ogg" video file either.
+    </p>
+
+    <p>
+        The <code>&lt;source&gt;</code> element allows you to specify alternative video files which the browser may choose from. The browser will use the first recognized format.
+    </p>
+
+    <p>
+        The text between the <code>&lt;video&gt;</code> and <code>&lt;/video&gt;</code> tags (<em>"Your browser does not support the video tag."</em>) will only be displayed in browsers that do not support the <code>&lt;video&gt;</code> element.
+    </p>
+
+    <p>To start a video automatically when the page is loaded, use the <code>autoplay</code> attribute after the <code>width</code> and <code>height</code> parameters, instead of "<del><code>controls</code></del>".</p>
+
+    <p>
+        Note: Chromium browsers do not allow autoplay in most cases. However, muted autoplay is always allowed.
+    </p>
+
+    <p>
+        You can also add the <code>loop</code> attribute o the video element to keep the video running again and again.
+    </p>
+
+    <p>
+        For complete detais about  the video element, check <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">MDN Web Docs.</a>
+    </p>
+
+
+        <video width="25%" poster="../images/salvavidas.jpg" controls>
+            <source src="../midia/video/pexels-rulo-davila-5380467.mp4" type="video/mp4">
+            <source src="../midia/video/pexels-rulo-davila-5380467.ogv" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+
+
+    <p>Video from:<cite>"https://www.pexels.com/pt-br/video/asfalto-barco-bote-canal-5380467/" Author: Rulo Davila, at Pexels</cite>
+    </p>
+
+    <p>
+        Poster picture: Photo by <a href="https://pixnio.com/pt/media/sinal-bem-vindo-colete-salva-vidas-texto-vintage" target="blank" rel="noopener noreferrer"> Bicanski</a> at <a href="https://pixnio.com/pt/"  target="blank" rel="noopener noreferrer">Pixnio</a>.
+    </p>
+
+    <p>
+        Teacher Guanabara advices us to use Handbrake video transcoder app to make different versions of our video, but the app doesn't run in my 8.1 Windows. So I'll pretend I have an OGV video just to give you an example of how the code gets.
+    </p>
+
+<h2>
+2) Embedding Video on Your Website.
+</h2>
+
+    <p>
+        The basic HTML structure for embedding videos is:
+    </p>
+
+    <p>
+        <code>&lt;iframe src="URL">&lt;/iframe&gt;</code>
+    </p>
+
+    <p>
+        This snippet of code helps display the video on your website. It pulls the video from its original source, without actually “forcing” you to host it on your website.  This implies that you won't have to worry that a video will affect your website load time, and it also opens up an array of choices between various video hosting services that best suit your needs.
+    </p>
+
+    <p>
+        In a few words, it improves your SEO rating. And if you embed a video from your own YouTube channel it HIGHLY improves your SEO rating, as Guanabara says in the video below.
+    </p>
+
+    <p>
+        Five simple steps to embedding a video from YouTube: 
+    </p>
+
+    <ol type="I">
+        <li>Go to YouTube.</li>
+        <li>Navigate to the video you wish to embed.</li>
+        <li>Click the <strong>Share</strong> link below the video, then click the <strong>Embed</strong> link.</li>
+        <li>Click the <strong>Copy</strong> option and the embed link will be highlighted in blue.</li>
+        <li>Paste it to your code.</li>
+    </ol>
+
+    <p>
+        Here's a video embeded this way:
+    </p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+
+</div>
+
+
+    <footer>
+        Thank you.
+    </footer>
+</body>
+</html>
+
+
+
+
