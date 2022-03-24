@@ -8,10 +8,10 @@
  The phases are:
  
 <ol style="margin-bottom: 30px;">
-<li>PHASE 1 - Only one long page focused in HTML5 / Aware of imperfect testings of CSS / No JavaScript. </li>
+<li>PHASE 1 - Only one long page focused in HTML5 / Aware of imperfect testings of CSS / No JavaScript. - DONE </li>
 
 <li><strong>PHASE 2</strong> - Is this you're reading: The same content, forked and completely refactored, with navigation bar and several pages showing how to apply the correct CSS3. No JavaScript.<br>
-            (First deploy expected for March 20, 2022).</li>
+            (First deploy expected for March 20, 2022). - DONE</li>
 
 <li>PHASE 3 - The previous phase, forked and refactored, now starting with JavaScript. <br>
             (First deploy expected for May 20, 2022).</li>
