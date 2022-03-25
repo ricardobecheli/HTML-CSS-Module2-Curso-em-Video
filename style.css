@@ -56,6 +56,14 @@ ol {
   line-height: 190%;
 }
 
+.continuetocss {
+    background-color: cornflowerblue;
+    color: rgb(1, 14, 136);
+    padding-left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
 .plainlist {
   list-style-type: revert;
   margin: revert;
