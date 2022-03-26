@@ -54,3 +54,21 @@ figure {
 ol {
   line-height: 190%;
 }
+
+/* Nav Bar style start from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+li a {
+  display: block;
+  width: 160px;
+  background-color: rgb(252, 50, 50);
+  padding: 4px;
+  color: rgb(255, 255, 255);
+}
+/* Nav Bar style end */
