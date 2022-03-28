@@ -24,18 +24,18 @@ p {
   margin-right: 5%;
 }
 
+/*As soon as I created article calles for organizing the topics, h1 changed font size to a little smaller than h2. It only returns to its previos (original) size if I attribute 3rem to it in CSS. Very, VERY STRANGE! */
+
 h1 {
     color: rgb(1, 14, 136);
-
+    font-size: 3rem;
 }
 
 h2 {
     color: rgb(2, 175, 255);
-
 }
 h3 {
     color: rgb(2, 175, 255);
-
 }
 
 footer {
@@ -51,18 +51,29 @@ figure {
     margin-left: 0%;
 }
 
-ol {
-  line-height: 190%;
-}
+/* Here are the article names*/
 
-/* Nav Bar style start from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical */
+/* I'm dividing into articles (before the course gets to this subject) after reading about CSS best practices somewhere*/
+
+.navbar-css {}
+
+.color-class {}
+
+.typography-class {}
+
+
+/* End of articles*/
+
+
+
+
+/* Nav Bar style start, copied and modified from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical */
 
 ul {
   list-style-type: disc;
   margin: 0;
   padding: 0;
   color: rgb(252, 50, 50);
-  
 }
 
 li a {
@@ -72,5 +83,6 @@ li a {
   padding: 4px;
   color: rgb(255, 255, 255);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid red;
 }
 /* Nav Bar style end */
