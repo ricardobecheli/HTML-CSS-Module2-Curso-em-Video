@@ -51,9 +51,8 @@ figure {
     margin-left: 0%;
 }
 
-/* Here are the article names*/
 
-/* I'm dividing into articles (before the course gets to this subject) after reading about CSS best practices somewhere*/
+/* Here are the article names. I'm dividing into articles (before the course gets to this subject) after reading about CSS best practices somewhere*/
 
 .navbar-css {}
 
@@ -86,3 +85,12 @@ li a {
   border: 2px solid red;
 }
 /* Nav Bar style end */
+
+
+/*gradient class properties*/
+
+.gradient {
+  height: 500px;
+  background-image: radial-gradient( white, blue);
+  padding: 3%;
+}
