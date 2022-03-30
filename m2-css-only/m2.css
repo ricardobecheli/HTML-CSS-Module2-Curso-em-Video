@@ -91,6 +91,7 @@ figure {
     .gradient {
       height: 500px;
       width: 70%;
+      box-shadow: 5px 5px 15px blueviolet;
       margin: auto;
       background-image: radial-gradient( white, blue);
       padding: 3%;
