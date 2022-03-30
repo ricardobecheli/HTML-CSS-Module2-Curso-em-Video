@@ -1,13 +1,12 @@
+/*By placing a @charset "UTF-8" here in the first line, an error appeared under "header". I guess the charset defined in the root ".css" file should be enough for the descendant stylesheets. Deleted, anyway. Will find out later about this.*/
 
 header {
-
     background-color: rgb(3, 92, 209);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     padding: 1px;
     text-align: center;
-   
 }
 
 body {
@@ -54,11 +53,11 @@ figure {
 
 /* Here are the article names. I'm dividing into articles (before the course gets to this subject) after reading about CSS best practices somewhere*/
 
-.navbar-css {}
+      .navbar-css {}
 
-.color-class {}
+      .color-class {}
 
-.typography-class {}
+      .typography-class {}
 
 
 /* End of articles*/
@@ -68,29 +67,34 @@ figure {
 
 /* NAVBAR style start, copied and modified from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical */
 
-ul {
-  list-style-type: decimal;
-  margin: 0;
-  padding: 0;
-  color: rgb(252, 50, 50);
-}
+    ul {
+      list-style-type: decimal;
+      margin: 0;
+      padding: 0;
+      color: rgb(252, 50, 50);
+    }
 
-li a {
-  display: block;
-  width: 200px;
-  background-color: rgb(252, 50, 50);
-  padding: 4px;
-  color: rgb(255, 255, 255);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border: 2px solid red;
+    li a {
+      display: block;
+      width: 200px;
+      background-color: rgb(252, 50, 50);
+      padding: 4px;
+      color: rgb(255, 255, 255);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      border: 2px solid red;
 }
 /* Nav Bar style end */
 
 
 /*gradient class properties*/
 
-.gradient {
-  height: 500px;
-  background-image: radial-gradient( white, blue);
-  padding: 3%;
-}
+    .gradient {
+      height: 500px;
+      width: 70%;
+      margin: auto;
+      background-image: radial-gradient( white, blue);
+      padding: 3%;
+    }
+
+/*gradient end*/
+
