@@ -337,14 +337,49 @@
             </p>
 
             <p>
-                <img src="assets/font-weight-code.jpg" width="70%" alt="font-weight-code">
+                <img src="assets/font-weight-code.jpg" width="50%" alt="font-weight-code">
             </p>
 
             <p>
                 From 100 to 900 are values that range from the equivalent to lighter (100) to bolder (900).
             </p>
 
+        <h3>
+            2.2.3) Other styles
+        </h3>
 
+            <p>
+                Of course all the styles you already apply in MS Word are available here, like <em>italic</em> (made with the &lt;em&gt; tag) and <strong>bold</strong> (made with the &lt;srtong&gt; tag). 
+            </p>
+
+            <p>
+                Underline is made with <q><code>text-decoration: underline;</code></q> simple declaration in the internal and external CSS. <br>
+                But to make it inline, there must be a &lt;span&gt; tag, <span style="text-decoration:underline;">like here.</span>
+            </p>
+
+            <img src="assets/underline.png" width="100%" alt="underline">
+
+            <p>
+                But the above works better in one word or a few words. To make it in block (like all the paragraphs, all the h1 titles, the whole page, a group of paragraphs or one paragraph) its better to make it CSS internal or external, like this:
+            </p>
+
+            <img src="assets/font-style.png" width="50%" alt="font-style">
+
+            <p>
+                To make a shorthand (to use 1 line instead of 4) of the above just declare <code>font:</code> and put the properties in the following order: <br>
+                <code>style weight size family</code>
+            </p>
+            <p>Like that:</p>
+
+            <p>
+                <code>font: italic bolder 2em 'Courrier New'</code>
+            </p>
+
+            <p>Note: you don't have to declare all the 4 properties, but you must mantain the same order, even skipping some of them.</p>
+
+        <h3>
+            2.2.4) 
+        </h3>
 
 
 
