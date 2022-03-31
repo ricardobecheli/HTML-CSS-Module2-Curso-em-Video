@@ -246,13 +246,111 @@
             <iframe src="https://en.wikipedia.org/wiki/Web_typography"height="300" width="100%" style="border:1px solid black;"></iframe>
 
     
+        <h2>2.1) How to choose <em>fonts</em> in css</h2>
+
             <p>
-                ...
+                As you must have noticed in your previous experience with text softwares, a kind of letter is called <q>font</q>. In fact it's been called font since 1995, according to the Wikipedia article above.
             </p>
     
-            <p>
-                ...
+            <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+                This paragraph is written in a different font family as the rest of the page. And it is applied with <em>inline CSS</em> as follows:
             </p>
+
+            <img src="assets/font-family-code-inline.png" width="70%" alt="font-family-code-inline">
+
+            <p>
+                As all the other CSS style effects, you may choose to apply it by <em>inline or internal or external</em> CSS
+            </p>
+
+            <p>
+                Note that when the font family name is composed of more than one word, it must be between quotes,like the "Arial Narrow Bold" in the above code snippet.
+            </p>
+
+            <p>There are always 3 types of font in each Emmet suggestion. It's called a
+                <q>safe combination</q> that provides options to a certain device (mobile, tablet, Smart TV, PC, you name it) in case it doesn't have one of the chosen. In that case, a very similar one will be used.
+            </p>
+
+            <p>
+                If you don't mind which particular font will be used, you may always choose <q>serif</q> or <q>sans-serif</q> as a font family and there will be no mistake. Every device must have at least one of each kind to display.
+            </p>
+
+        <h2>2.2) Font sizes</h2>
+
+            <h3>
+                2.2.1) Absolute mesurements:
+            </h3>
+
+                <ol>
+                    <li>cm (centimeter) can have different displays depending on the size of the device.</li>
+                    <li>mm (milimeter) can have different displays depending on the size of the device.</li>
+                    <li>in (inch) can have different displays depending on the size of the device.</li>
+                    <li>px (pixel) can have different displays in Apple retina monitors.</li>
+                    <li>pt (point) A <q>printed in paper</q> measurement.</li>
+                    <li>pc (paica) A <q>printed in paper</q> measurement.</li>
+                </ol>
+
+            <h3>
+                2.2.1) Relative mesurements:
+            </h3>
+
+                <ol>
+                    <li>em (in proportion to the capital letter hight of the font size).</li>
+                    <li>ex (in proportion to the "x"" hight of the font size).</li>
+                    <li>rem (in proportion to the root [top parent's] font size).</li>
+                    <li>vw (in proportion to the viewport [the screen] width of your device).</li>
+                    <li>vh (in proportion to the viewport [the screen] hight of your device)</li>
+                    <li>% (in proportion to the parent element)</li>
+                </ol>
+
+                <p><a href="http://www.w3.org/Style/Examples/007/units.en.html" target="_blank" rel="noopener noreferrer">CSS different units for expressing length according to www.w3.org:</a></p>
+
+                <p><img src="assets/css-mesurement-units.jpg" width="70%" alt="css-mesurement-units"></p>
+
+                <p>
+                    You may also check it from MDN Web Docs:
+                </p>
+
+                <p>
+                    <a href="http://developer.mozilla.org/pt-BR/docs/Web/CSS/font-size" target="_blank" rel="noopener noreferrer">MDN web docs about font size.</a>
+                </p>
+
+                <p>Or even according to w3schools:</p>
+
+                <p>
+                    <a href="http://www.w3schools.com/css/css_font_size.asp" target="_blank" rel="noopener noreferrer">w3schools about css font size.</a>
+                </p>
+
+            <h3>
+                2.2.2) Font weight
+            </h3>
+
+            <p style="font-weight: bolder;">
+                A bolder font style.
+            </p>
+
+            <p style="font-weight: lighter;">
+                A lighter font weight.
+            </p>
+
+            <p>
+                And so on. You can choose. See Emmet's options:
+            </p>
+
+            <p>
+                <img src="assets/font-weight-code.jpg" width="70%" alt="font-weight-code">
+            </p>
+
+            <p>
+                From 100 to 900 are values that range from the equivalent to lighter (100) to bolder (900).
+            </p>
+
+
+
+
+
+
+
+
 </article>
 
 
