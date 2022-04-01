@@ -21,7 +21,6 @@ body {
 p {
     text-align: justify;
     margin-right: 5%;
-  
   }
 
  
@@ -61,6 +60,8 @@ figure {
       .color-class {}
 
       .typography-class {}
+
+      .text-alignment-class {}
 
 
 /* End of articles*/
