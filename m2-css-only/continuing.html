@@ -389,8 +389,51 @@
             </ol>
 
         <h3>
-            2.2.4) 
+            2.2.4) Font family options
         </h3>
+
+            <p>
+                At <a href="http://fonts.google.com/" target="_blank" rel="noopener noreferrer">fonts.google.com</a> you have a lot of font options to use (more than 1,300!!!). Once you choose a font, you can download, embed or import the font. The last option is the most practical. Just copy the given code and insert it into the first lines of the CSS space (outside any selectors) of your website or page to be used where you want, as if it was installed in your device. You must be connected to the web, though. You can do it with as many fonts as you like in the same website's CSS space/file.
+            </p>
+
+            <p>
+                As the teacher says, there are other websites that do the same but he likes Google Fonts. And, of course, it's free to use.
+            </p>
+
+            <p>
+                Remember always to declare, at the end of the font family line, the general type, I mean, <em>serif</em> or <em>sans-serif</em>, just in case anything else works for any reason.
+            </p>
+
+        <h3>
+            2.2.5) The <code>@font-face</code> Rule (CSS) and the font-family property (HTML)
+        </h3>
+
+            <p>
+                With CSS, websites can finally use fonts other than the pre selected "web-safe" fonts.
+            </p>
+
+            <p>
+                <strong>a) To use a new font in the CSS area:</strong> After you download a font to your website folder (a folder of your choice), just declare the font name (suppose it's <em>"Open Sans"</em>) and the URL where it can be found (remember it's already in a folder of your choice and suppose it's called <q>fonts</q>):
+                <pre>
+                    @font-face {
+                        font-family: "Open Sans";
+                        src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+                             url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+                      }
+                </pre>
+
+                It's part of the syntax to declare the format after the url, like above. The file type is repeated inside the parenthesis: <span style="color: red;"><em>format("woff2")</em>
+                </span>. It's better to check if the format really equals the file type.
+            </p>
+
+            <p>
+                <strong>b) To use the font for an HTML element:</strong> refer to the name of the font (myFirstFont) through the font-family property:
+                <pre>
+                    div {
+                        font-family: myFirstFont;
+                      }
+                </pre>
+            </p>
 
 
 
