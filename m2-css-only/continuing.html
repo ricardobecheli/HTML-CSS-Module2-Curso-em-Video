@@ -551,19 +551,45 @@
             </p>
 
             <p>
-                For example, I want one of the many &lt;h1&gt; in the website to be of a different color as declared in the <code>.css</code> file.
+                For example, I want a few of the many &lt;h1&gt; in the website to have a different font color as declared in the <code>.css</code> file.
             </p>
 
             <p>
-                ...
+                Simple: I identify the &lt;h1&gt; with an <q>id</q> selector.
             </p>
-            ...
+            
+        <h2>
+            4.1) id
+        </h2>
+
+
+            
             <p>
-                ...
+                The id of an element is unique within a page, so the id selector is used to select one unique element. (Opposite to the <q>class</q> selector, that selects an area or a block of elements - several paragraphs - for instance ).
             </p>
-            ...
+
+            <h1 id="different">
+                To this &lt;h1&gt;
+                I attributed the <q>different</q> id here in the HTML file. 
+                Look:
+            </h1> 
+            
+            <img src="assets/different-1.png" width="50%" alt="id code in the html file">
+            
             <p>
-                ...
+                Note that the selector at the CSS file is a hashtag. Here I wanted to specify that the id style is directed only to &lt;h1&gt; tags. And in the <strong>.css</strong> file it looks like that:
+            </p>
+
+                <img src="assets/different-2.png" width="30%" alt="id code only for h1 in the CSS file">
+            
+            <p>
+                And here the <q>different</q> id will be valid for any specific tag I want (and it continues working for the h1 above):
+            </p>
+
+            <img src="assets/different-3.png" width="30%" alt="id code for any tag I want in the CSS file">
+
+            <p>
+                That is it!
             </p>
 
 
