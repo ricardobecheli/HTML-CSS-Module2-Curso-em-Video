@@ -546,6 +546,19 @@
                 <code>id</code> and <code>class</code> are perzonalizable selectors.
             </p>
 
+
+                <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class">
+                    The class global attribute is a space-separated list of the case-sensitive classes of the element. Classes allow CSS and Javascript to select and access specific elements via the class selectors or functions like the DOM* method: <br>
+                    <code>document.getElementsByClassName</code>. <br>
+                    * The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web. <br>
+                    Read more at <a href="http://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class" target="_blank" rel="noopener noreferrer">MDN Web Docs</a>
+                </blockquote>
+
+            <p>
+                Though the specification doesn't put requirements on the <strong>name of classes</strong>, web developers are encouraged to use names that describe the semantic purpose of the element, rather than the presentation of the element. For example, <q>clarify-box</q> (to the box below)  to describe an attribute rather than only "box", although  this class may be presented by a box. Semantic names remain logical (the clarification part of it) even if the presentation of the page changes (if one day it's not a box any longer).
+            </p>
+
+
             <p>
                 Sometimes I may want one - <em>and only one for each id name</em> - of the many <strong>&lt;h1&gt;</strong> in the website to have a different - let's say - font color as I had declared for all the <strong>&lt;h1&gt;</strong> in the <strong><code>.css</code></strong> file.
             </p>
@@ -562,7 +575,7 @@
                 The id of an element is unique within a page, so the id selector is used to select one unique element (<em>again: one and only one!</em>), i.e. an  <strong>&lt;h1&gt;</strong> tag. (Opposite to the <strong><q>class</q></strong> selector, that selects an area (a <strong><em>div</em></strong> or an <strong><em>article</em></strong>) or a block of elements - several <strong>&lt;h1&gt;</strong> or <strong>&lt;p&gt;</strong> - for instance ).
             </p>
 
-            <article class="clarify">
+            <article class="clarify-box">
                 <h2>Clarifying: The Difference Between <q>i.e.</q> (used above) and  <q>e.g.</q></h2>
 
                     <p>

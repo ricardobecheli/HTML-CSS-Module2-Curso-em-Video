@@ -45,7 +45,7 @@ h3 {
     color: rgb(2, 175, 255);
 }
 
-.clarify {
+.clarify-box {
   box-shadow: inset 0 0 1.5em chartreuse, 0 0 1em blue;
   width: 70%;
   margin: auto;
