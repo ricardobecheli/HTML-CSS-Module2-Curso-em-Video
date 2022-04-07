@@ -584,11 +584,20 @@
             </p>
 
             <article class="clarify-box">
-                <h2>Clarifying: The Difference Between <q>i.e.</q> (used above) and  <q>e.g.</q></h2>
+                <h2>Clarifying<sup>1</sup>: The Difference Between <q>i.e.</q> (used above) and  <q>e.g.</q></h2>
 
-                    <p>
-                        (And teaching: here I'm using HTML &lt;blockquote&gt; and CSS box-shadow - check the code)
-                    </p>
+                    <article class="clarify-box">
+                        <p>
+                            Check the code. Here I'm using:
+                        </p>
+                        
+                        <ol>
+                            <li>&lt;article&gt; (one inside the other)</li>
+                            <li>class (The same. See? You can use CLASS repeatedly)</li>
+                            <li>HTML &lt;blockquote&gt;</li>
+                            <li>CSS box-shadow (one inside the other)</li>
+                        </ol>
+                    </article>
 
                     <blockquote cite="https://www.merriam-webster.com/words-at-play/ie-vs-eg-abbreviation-meaning-usage-difference#:~:text=I.e.%20is%20an%20abbreviation%20for,examples%20for%20the%20previous%20statement.">
 
@@ -611,11 +620,12 @@
 
     <h1 id="different">
         To this &lt;h1&gt;
-        I attributed an <em>id</em> called <q>different</q>.
+        I attributed an <em>id</em> called <q>different</q>. 
+        It must be used only here.
     </h1>
 
             <p>
-                I did it in the HTML file. Look:
+                First I did it in the HTML file. As all the attributes, you put it in the opening tag. Look:
             </p>
             
             <img src="assets/different-1.png" width="50%" alt="id code in the html file">
@@ -639,6 +649,24 @@
             </p>
 
             <img src="assets/different-3.png" width="30%" alt="id code for any tag I want in the CSS file">
+
+            <article class="clarify-box">
+
+                <h2>
+                    Clarifying<sup>2</sup>: <br>
+                     Never use the same <q>id</q> for two (or more) <q>things</q>,<br>
+                     <em>although it will work!</em> But would be wrong.
+                </h2>
+
+                <p>
+                    So wrong that I don't know why they allow it to work. Looks like a prank (pegadinha, in portuguese), agree?
+                </p>
+
+                <p>
+                    See again? You can use CLASS repeatedly
+                </p>
+                
+            </article>
 
         <h2>
             4.1.1) id in local navbar
