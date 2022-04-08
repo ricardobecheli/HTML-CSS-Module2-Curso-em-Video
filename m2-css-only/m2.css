@@ -89,10 +89,10 @@ figure {
 
 
 
-/* NAVBAR style start, copied and modified from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical */
+/* NAVBAR style start, copied and modified from
+ https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical */
 
     ul {
-      list-style-type: decimal;
       margin: 0;
       padding: 0;
       color: rgb(252, 50, 50);
