@@ -593,7 +593,7 @@
                         
                         <ol>
                             <li>&lt;article&gt; (one inside the other)</li>
-                            <li>class (The same. See? You can use CLASS repeatedly)</li>
+                            <li>class (One inside the other too. More about CLASS in 4.2 below)</li>
                             <li>HTML &lt;blockquote&gt;</li>
                             <li>CSS box-shadow (one inside the other)</li>
                         </ol>
@@ -728,13 +728,51 @@
 
             <img src="assets/class-2.png" width="70%" alt="class code in CSS.">
 
+        <h3>
+            4.2.1) Multiple classes per element???
+        </h3>
+
             <p>
-                ...
+                Yes, it's possible. But how many?
             </p>
 
             <p>
-                ...
+                According to <a href="http://kilianvalkhof.com/2008/css-html/maximum-number-of-supported-classes-per-element/" target="_blank" rel="noopener noreferrer">Kilian Valkhof</a>, <q>I expected to find a number of 32 or something near that. Turns out I was quite mistaken, the real number, in all browsers, is well <strong>over 2000</strong> classes!</q>
             </p>
+
+            <p>
+                Example of a code with 2 classes, from <a href="http://stackoverflow.com/questions/17366432/multiple-classes-on-single-element-html" target="_blank" rel="noopener noreferrer">Stackoverflow</a>. Note that there's <strong>only a space between each class</strong>, in the HTML code.
+            </p>
+
+            <p>
+                The CSS is like that:
+                <pre>
+                    .class1 {
+                        color:red;
+                    }
+                    
+                    .class2 {
+                        background-color:blue;
+                    }
+                </pre>
+            </p>
+                And the HTML is:
+
+            <p>
+                <pre>
+                    &lt;div class="class1"&gt;text 1&lt;/div&gt;
+                    &lt;div class="class2"&gt;text 2&lt;/div&gt;
+                    <strong>&lt;div class="class1 class2"&gt;text 3&lt;/div&gt;</strong>
+                </pre>
+            </p>
+
+            <p>
+                But... <strong>Is it good practice?</strong> According to the same Stackoverflow link as above:
+            </p>
+
+            <blockquote cite="http://stackoverflow.com/questions/17366432/multiple-classes-on-single-element-html">
+                It is a good practice since an element can be a part of different groups, and you may want specific elements to be a part of more than one group. <strong>The element can hold an infinite number of classes in HTML5</strong>.
+            </blockquote>
 
 
 
