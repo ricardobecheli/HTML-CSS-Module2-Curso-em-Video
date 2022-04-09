@@ -95,7 +95,8 @@ figure {
     ul {
       margin: 0;
       padding: 0;
-      color: rgb(252, 50, 50);
+      list-style-type: none;
+
     }
 
     li a {
