@@ -16,3 +16,5 @@
 <li>PHASE 3 - The previous phase, forked and refactored, now starting with JavaScript. <br>
             (First deploy expected for May 20, 2022).</li>
 </ol>
+
+Will extend this text if necessary.
