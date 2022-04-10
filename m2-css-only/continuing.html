@@ -27,7 +27,7 @@
                 <li><a href="#colors">Colors</a></li>
                 <li><a href="#typography">Typography</a></li>
                 <li><a href="#text-alignment">Text Alignment</a></li>
-                <li><a href="#explain-id-and-class">Id & Class</a></li>
+                <li><a href="#explain-id-and-class">Id & Class & div</a></li>
                 <li><a href="#pseudo-classes">Pseudo Class</a></li>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
@@ -558,37 +558,24 @@
 <article class="explained-id-class" id="explain-id-and-class">
 
     <h1>
-        4) <code>id</code> and <code>class</code>
+        4) <code>id</code>, <code>class</code> and <code>div</code>
     </h1>
 
             <p>
-                <code>id</code> and <code>class</code> are perzonalizable selectors.
+                <code>id</code> and <code>class</code> are perzonalizable selectors. Let's see the differences among them.
             </p>
-
-
-                <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class">
-                    The class global attribute is a space-separated list of the case-sensitive classes of the element. Classes allow CSS and Javascript to select and access specific elements via the class selectors or functions like the DOM* method: <br>
-                    <code>document.getElementsByClassName</code>. <br>
-                    * The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web. <br>
-                    Read more at <a href="http://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class" target="_blank" rel="noopener noreferrer">MDN Web Docs</a>
-                </blockquote>
-
-            <p>
-                Though the specification doesn't put requirements on the <strong>name of classes</strong>, web developers are encouraged to use names that describe the semantic purpose of the element, rather than the presentation of the element. For example, <q>clarify-box</q> (to the box below)  to describe an attribute rather than only "box", although  this class may be presented by a box. Semantic names remain logical (the clarification part of it) even if the presentation of the page changes (if one day it's not a box any longer).
-            </p>
-
+           
+        <h2>
+            4.1) id
+        </h2>
 
             <p>
                 Sometimes I may want one - <em>and only one for each id name</em> - of the many <strong>&lt;h1&gt;</strong> in the website to have a different - let's say - font color as I had declared for all the <strong>&lt;h1&gt;</strong> in the <strong><code>.css</code></strong> file.
             </p>
 
             <p>
-                To do that I identify the <strong>&lt;h1&gt;</strong> with an <strong><q>id</q></strong> selector as follows:
+                To do that I identify the <strong>&lt;h1&gt;</strong> with an <strong><q>id</q></strong> selector.
             </p>
-            
-        <h2>
-            4.1) id
-        </h2>
 
             <p>
                 The id of an element is unique within a page, so the id selector is used to select one unique element (<em>again: one and only one!</em>), i.e. an  <strong>&lt;h1&gt;</strong> tag. (Opposite to the <strong><q>class</q></strong> selector, that selects an area (a <strong><em>div</em></strong> or an <strong><em>article</em></strong>) or a block of elements - several <strong>&lt;h1&gt;</strong> or <strong>&lt;p&gt;</strong> - for instance ).
@@ -666,17 +653,13 @@
                 <h2>
                     Clarifying<sup>2</sup>: <br>
                      Never use the same <q>id</q> for two (or more) <q>things</q>,<br>
-                     <em>although it will work!</em> But would be wrong.
+                     <em>although it will work!</em>. But it would be wrong.
                 </h2>
 
                 <p>
                     So wrong that I don't know why they allow it to work. Looks like a prank (pegadinha, in portuguese), agree?
                 </p>
-
-                <p>
-                    See again? You can use CLASS repeatedly
-                </p>
-                
+             
             </article>
 
         <h2>
@@ -727,8 +710,24 @@
             4.2) class
         </h2>
 
+        <p>
+            The HTML <strong>class</strong> is an attribute for some tag.
+        </p>
+
+            
+        <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class">
+            The class global attribute is a space-separated list of the case-sensitive classes of the element. Classes allow CSS and Javascript to select and access specific elements via the class selectors or functions like the DOM* method: <br>
+            <code>document.getElementsByClassName</code>. <br>
+            * The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web. <br>
+            Read more at <a href="http://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class" target="_blank" rel="noopener noreferrer">MDN Web Docs</a>
+        </blockquote>
+
+    <p>
+        Though the specification doesn't put requirements on the <strong>name of classes</strong>, web developers are encouraged to use names that describe the semantic purpose of the element, rather than the presentation of the element. For example, <q>clarify-box</q> (to the box below)  to describe an attribute rather than only "box", although  this class may be presented by a box. Semantic names remain logical (the clarification part of it) even if the presentation of the page changes (if one day it's not a box any longer).
+    </p>
+
             <p>
-                The HTML <strong>class</strong> is an attribute for some tag. See how class looks in HTML:
+                See how class looks in HTML:
             </p>
 
             <img src="assets/class-1.png" width="70%" alt="class code in html.">
@@ -787,6 +786,24 @@
                 Another dev thereof adds: <q>It's a good practice if you need them. It's also a good practice is they make sense, so future coders can understand what you're doing. <br>
                 But generally, no it's not a good practice to attach 10 class names to an object because most likely whatever you're using them for, you could accomplish the same thing with far fewer classes. Probably just 1 or 2.</q>
             </blockquote>
+
+    <h1>
+        4.3) div
+    </h1>
+
+            <p>
+                &lt;div&gt; is the <strong>content division</strong> HTML element. It is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).
+            </p>
+
+            <p>
+                As a "pure" container, the &lt;div&gt; element does not inherently represent anything. Instead, it's used to group content so it can be easily styled using the <em>class</em> or <em>id</em> attributes, marking a section of a document as being written in a different language (using the lang attribute), and so on.
+            </p>
+
+            <p>
+                ...
+            </p>
+
+
 </article>
 
 <article class="pseudo-class" id="pseudo-classes">
