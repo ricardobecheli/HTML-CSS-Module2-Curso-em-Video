@@ -124,3 +124,38 @@ figure {
 
 /*gradient end*/
 
+div {
+  display: inline-block;
+  background-color: lightgray;
+  text-align: center;
+  width: 350px;
+  height: 150px;
+  border: 1px solid red;
+  padding: 20px;
+  margin: 10px;
+}
+
+div:hover {
+  background-color: yellow;
+  color: red;
+  text-align: left;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 2em;
+}
+
+div > p {
+  display: none;
+
+}
+
+#d1:hover > p {
+  display: block;
+  font-size: 0.5em;
+  color: blue;
+  background-color: white;
+  width: fit-content;
+  height: 1em;
+}
+
