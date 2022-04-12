@@ -81,6 +81,7 @@ figure {
 
       .explained-id-class {}
       
+      /*Missing the others! Necessary??? Why did I created those classes?*/
       
 
 
@@ -128,14 +129,14 @@ a {
 /*gradient end*/
 
 
-/*PSEUDO-CLASSES*/
+/*PSEUDO-CLASSES - 3 boxes example from Curso em Vídeo*/
 
 div {
   display: inline-block;
   background-color: lightgray;
   text-align: center;
   width: 350px;
-  height: 150px;
+  height: 250px;
   border: 1px solid red;
   padding: 20px;
   margin: 10px;
@@ -152,12 +153,12 @@ div:hover {
 }
 
 div > p {
-  display: none;
+  display: none; /*Here it hides the paragraph*/
 
 }
 
 #d1:hover > p {
-  display: block;
+  display: block; /*And here it shows the paragraph*/
   font-size: 0.5em;
   color: blue;
   background-color: white;
