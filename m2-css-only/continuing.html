@@ -815,6 +815,20 @@
     <h1>
         5) Pseudo-classes
     </h1>
+
+        <p>
+            A pseudo-class is used to define a special state of an element.
+        </p>
+
+        <p>
+            For example, it can be used to:
+        </p>
+
+        <ul>
+            <li>Style an element when a user mouses over it</li>
+            <li>Style visited and unvisited links differently</li>
+            <li>Style an element when it gets focus</li>
+        </ul>
             
         <p>
             The teacher created 3 divs to show us how pseudo-classes work.
@@ -835,39 +849,58 @@
                 This is div C
             </div>
 
+<!--
+    Another example of pseudo-classes, from w3schools:
+    (THEY USE THE b TAG FOR BOLD - not semantic! just any bold...)
+    (Pseudo-class names are not case-sensitive.)
+-->
 
+<blockquote cite="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">
+    Pseudo-classes let you apply a style to an element in relation to:
+    <ol type="A">
+        <li>The content of the document tree;</li>
+        <li>External factors like the history of the navigator (:visited, for example);</li>
+        <li>The status of its content (like :checked on certain form elements);</li>
+        <li>The position of the mouse (like :hover, which lets you know if the mouse is over an element or not).</li>
+    </ol>
+    This is from <a href="http://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="_blank" rel="noopener noreferrer">MDN Web Docs.</a>
+</blockquote>
+
+        <P>
+            Let's see an example that applies pseudo-class style in relation to two things: history and position of the mouse:
+        </P>
 
         <p>
-            ...
+            <b><a href="https://html-css-module2-curso-em-video.vercel.app/" target="_blank" rel="noopener noreferrer">This is a link to be modified by pseudo-classes, as explained below:</a></b>
         </p>
 
-        <p>
-            ...
-        </p>
+        <article class="clarify-box">
 
-        <p>
-            ...
-        </p>
+            <h2>
+                Clarifying<sup>3</sup>: How to use pseudo-classes
+            </h2>
+            <p>
+                <code>a:hover</code> MUST come after <code>a:link</code> and <code>a:visited</code> in the CSS definition in order to be effective.
+            </p>
+            <p>
+                <code>a:active</code> MUST come after <code>a:hover</code> in the CSS definition in order to be effective.
+            </p>
 
-        <p>
-            ...
-        </p>
+            <p>
+                So the order is:
+            </p>
 
-        <p>
-            ...
-        </p>
+            <ol>
+                <li>link</li>
+                <li>visited</li>
+                <li><strong>hover</strong></li>
+                <li>active</li>
+            </ol>
+        </article>
 
-        <p>
-            ...
-        </p>
-
-
-
-
-
-
-
-
+            <p>
+                See many more examples of pseudo-classes at <a href="http://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank" rel="noopener noreferrer">w3schools.</a>
+            </p>
 
 </article>
 
