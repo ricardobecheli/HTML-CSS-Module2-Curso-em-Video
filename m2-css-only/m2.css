@@ -201,4 +201,10 @@ a:active {
   color: black;
 }
 
+/*PSEUDO-ELEMENTS*/ 
 
+.pseu-el-paragraph::after {
+  content: ' [link - this green text was added by a pseudo-element effect]';
+  text-decoration: none;
+  color: darkgreen;
+}
