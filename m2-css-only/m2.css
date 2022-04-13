@@ -80,8 +80,10 @@ figure {
       .text-alignment-class {}
 
       .explained-id-class {}
+
+      .pseudo-elements {}
       
-      /*Missing the others! Necessary??? Why did I created those classes?*/
+
       
 
 
@@ -198,3 +200,5 @@ a:hover {
 a:active {
   color: black;
 }
+
+

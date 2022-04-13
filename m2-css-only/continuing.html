@@ -258,8 +258,8 @@
 </article>
 
 
-<article class="typography-class">
-    <h1 id="typography">
+<article class="typography-class"  id="typography">
+    <h1>
         2) Typography
     </h1>
             <p>
@@ -920,10 +920,10 @@
             </p>
 
             <ol>
-                <li>link</li>
-                <li>visited</li>
-                <li><strong>hover</strong></li>
-                <li>active</li>
+                <li>link - <span style="font-size: 0.75em; color: red;">If nothing is done, it lies there in RED.</span></li>
+                <li>visited - <span style="font-size: 0.75em; color: purple;">After clicked it turns PURPLE.</span></li>
+                <li><strong>hover</strong> - <span style="font-size: 0.75em; color: darkorange;">When the mouse is over it gets DARK-ORANGE.</span></li>
+                <li>active - <span style="font-size: 0.75em; color: black;">While being clicked it becomes BLACK.</span></li>
             </ol>
         </article>
 
@@ -941,19 +941,73 @@
 </h1>
 
             <p>
-                ...
+                A CSS pseudo-element is a keyword added to a selector that lets you <strong>style a specific part of the selected element(s)</strong>.
             </p>
 
             <p>
-                ...
+                You can insert content before, or after, the content of an element.
             </p>
 
             <p>
-                ...
+                Or you can style the first letter, or line, of an element.
             </p>
 
             <p>
-                ...
+                For example, <code>::first-line</code> can be used to change the font of the first line of a paragraph:
+            </p>
+
+            <p>
+                The <code>::first-line</code> pseudo-element can only be applied to block-level elements.
+            </p>
+
+            <p>
+                <pre>
+                    /* The first line of every &lt;p&gt; element. */
+                        p::first-line {
+                          color: blue;
+                          text-transform: uppercase;
+                        }
+                </pre>
+            </p>
+
+            <p>
+                The pseudo-element syntax is:
+            </p>
+
+            <p>
+                <pre>
+                    selector::pseudo-element {
+                        property: value;
+                      }
+                </pre>
+            </p>
+
+            <p>
+                You can use <strong>only one pseudo-element in a selector</strong>. It must appear after the simple selectors in the statement.
+            </p>
+
+        <article class="clarify-box">
+            <h2>
+                Notice the double colon notation
+            </h2>
+
+            <h3>
+                <code>::first-line</code> <span style="color: black;">versus</span> <code>:first-line</code>
+            </h3>
+
+            <p>
+                As a rule, double colons (::) should be used instead of a single colon (:). This distinguishes pseudo-classes from pseudo-elements. However, since this distinction was not present in older versions of the W3C spec, most browsers support both syntaxes for the original pseudo-elements.
+            </p>
+        </article>
+
+            <p>
+                Check
+                <a href="http://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" target="_blank" rel="noopener noreferrer">MDN Web Docs</a>
+                for details.
+            </p>
+
+            <p>
+                <a href="http://www.w3schools.com/css/css_pseudo_elements.asp" target="_blank" rel="noopener noreferrer">w3schools</a> can be of great help too!
             </p>
 
             <p>
