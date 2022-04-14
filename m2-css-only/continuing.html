@@ -11,19 +11,19 @@
 <body>
 
         <header>
-            <h3 style="margin-bottom: 0%; color: rgb(166, 247, 253);">
+            <h3 style="margin-bottom: 0%; color: rgb(166, 247, 253); font-weight: 100;">
                 "HTML5 e CSS3 - Módulo 2" <br>CSS Base Page (all topics in one page to be divided later in topics (HTML &lt;article classes&gt; here) and form a website)
             </h3>
             <p style="margin-top: 0%;">"Curso em Vídeo"<br>This is the student's notebook of Ricardo Barros Becheli.<br>
-                <a href="mailto:ricardobarrosbecheli@gmail.com"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+                <a href="mailto:ricardobarrosbecheli@gmail.com" target="blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-                <a href="https://www.linkedin.com/in/ricardo-becheli-36843659/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+                <a href="https://www.linkedin.com/in/ricardo-becheli-36843659/" target="blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
             </p>
         </header>
         
 <!--NAV BAR START-->
         <article class="navbar-css">
-            <ul>
+            <ul class="navbar">
                 <li><a href="#colors">Colors</a></li>
                 <li><a href="#typography">Typography</a></li>
                 <li><a href="#text-alignment">Text Alignment</a></li>
@@ -321,27 +321,27 @@
                 2.2.1) Absolute mesurements:
             </h3>
 
-                <ol>
+                <ul>
                     <li>cm (centimeter) can have different displays depending on the size of the device.</li>
                     <li>mm (milimeter) can have different displays depending on the size of the device.</li>
                     <li>in (inch) can have different displays depending on the size of the device.</li>
                     <li>px (pixel) can have different displays in Apple retina monitors.</li>
                     <li>pt (point) A <q>printed in paper</q> measurement.</li>
                     <li>pc (paica) A <q>printed in paper</q> measurement.</li>
-                </ol>
+                </ul>
 
             <h3>
                 2.2.1) Relative mesurements:
             </h3>
 
-                <ol>
+                <ul>
                     <li>em (in proportion to the capital letter hight of the font size).</li>
                     <li>ex (in proportion to the "x"" hight of the font size).</li>
                     <li>rem (in proportion to the root [top parent's] font size).</li>
                     <li>vw (in proportion to the viewport [the screen] width of your device).</li>
                     <li>vh (in proportion to the viewport [the screen] hight of your device)</li>
                     <li>% (in proportion to the parent element)</li>
-                </ol>
+                </ul>
 
                 <p><a href="http://www.w3.org/Style/Examples/007/units.en.html" target="_blank" rel="noopener noreferrer">CSS different units for expressing length according to www.w3.org:</a></p>
 
@@ -419,7 +419,7 @@
             <p>Note: you don't have to declare all the 4 properties, but you must mantain the same order, even skipping some of them.</p>
             
             <p>
-                Don't forget:
+                Don't forget the order:
             </p>
 
             <ol>
@@ -615,12 +615,12 @@
                             Check the code. Here I'm using:
                         </p>
                         
-                        <ol>
+                        <ul>
                             <li>&lt;article&gt; (one inside the other)</li>
                             <li>class (One inside the other too. More about CLASS in 4.2 below)</li>
                             <li>HTML &lt;blockquote&gt;</li>
                             <li>CSS box-shadow (one inside the other)</li>
-                        </ol>
+                        </ul>
                     </article>
 
                     <blockquote cite="https://www.merriam-webster.com/words-at-play/ie-vs-eg-abbreviation-meaning-usage-difference#:~:text=I.e.%20is%20an%20abbreviation%20for,examples%20for%20the%20previous%20statement.">
@@ -825,10 +825,6 @@
                 As a "pure" container, the &lt;div&gt; element does not inherently represent anything. Instead, it's used to group content so it can be easily styled using the <em>class</em> or <em>id</em> attributes, marking a section of a document as being written in a different language (using the lang attribute), and so on.
             </p>
 
-            <p>
-                ...
-            </p>
-
 
 </article>
 
@@ -886,7 +882,7 @@
 
 <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">
     Pseudo-classes let you apply a style to an element in relation to:
-    <ol type="A">
+    <ol type="a">
         <li>The content of the document tree;</li>
         <li>External factors like the history of the navigator (:visited, for example);</li>
         <li>The status of its content (like :checked on certain form elements);</li>
@@ -906,7 +902,7 @@
         <article class="clarify-box">
 
             <h2>
-                Clarifying<sup>3</sup>: How to use pseudo-classes
+                Clarifying<sup>3</sup>: How to use pseudo-class links in CSS
             </h2>
             <p>
                 <code>a:hover</code> MUST come after <code>a:link</code> and <code>a:visited</code> in the CSS definition in order to be effective.
@@ -926,6 +922,12 @@
                 <li>active - <span style="font-size: 0.75em; color: black;">While being clicked it becomes BLACK.</span></li>
             </ol>
         </article>
+
+            <p>
+                Check the code of pseudo-class links in CSS:
+            </p>
+
+            <img src="assets/pseudo-class links-in-css.png" width="50%" alt="">
 
             <p>
                 See many more examples of pseudo-classes at <a href="http://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank" rel="noopener noreferrer">w3schools.</a>
