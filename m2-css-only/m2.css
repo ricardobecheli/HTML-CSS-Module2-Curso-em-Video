@@ -73,15 +73,29 @@ figure {
 
       .navbar-css {}
 
-      .color-class {}
+      .color-class {
+        background-color: rgb(150, 225, 238);
+      }
 
-      .typography-class {}
+      .typography-class {
+                background-color: rgb(200, 230, 240);
+      }
 
-      .text-alignment-class {}
+      .text-alignment-class {
+                background-color: rgb(150, 225, 238);
+      }
 
-      .explained-id-class {}
+      .explained-id-class {
+                background-color: rgb(200, 230, 240);
+      }
 
-      .pseudo-elements-class {}
+      .pseudo-class {
+                background-color: rgb(150, 225, 238);        
+      }
+
+      .pseudo-elements-class {
+        background-color: rgb(200, 230, 240);
+      }
       
 
       
