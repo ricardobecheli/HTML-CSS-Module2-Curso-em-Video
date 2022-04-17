@@ -144,14 +144,17 @@ figure {
 /*gradient end*/
 
 
+
+
+
 /*PSEUDO-CLASSES - 3 boxes example from Curso em Vídeo*/
 
 div {
   display: inline-block;
   background-color: lightgray;
   text-align: center;
-  width: 350px;
-  height: 250px;
+  width: fit-content;
+  height: fit-content;
   border: 1px solid red;
   padding: 20px;
   margin: 10px;
@@ -164,7 +167,7 @@ div:hover {
   font-weight: bolder;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
-  font-size: 2em;
+
 }
 
 div > p {
@@ -173,7 +176,7 @@ div > p {
 }
 
 #d1:hover > p {
-  display: block; /*And here it shows the paragraph*/
+  display: inline-block; /*And here it shows the paragraph*/
   font-size: 0.5em;
   color: blue;
   background-color: white;
