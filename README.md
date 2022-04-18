@@ -5,7 +5,7 @@
  
  The CSS will be as external as possible to standardize the website. Will check the pros and cons of that as we walk.No JavaScript is expected for this phase.
  
- The phases are:
+ The phases are the following:
  
 <ol style="margin-bottom: 30px;">
 <li>PHASE 1 - Only one long page focused in HTML5 / Aware of imperfect testings of CSS / No JavaScript. - DONE </li>
