@@ -235,5 +235,6 @@ a:active {
 
 .lista {
   line-height: 2em;
-  font-weight: 600;
+  font-weight: 800;
+  list-style: none;
 }
