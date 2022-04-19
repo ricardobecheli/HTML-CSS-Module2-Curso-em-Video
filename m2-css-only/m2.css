@@ -160,11 +160,11 @@ div {
   display: inline-block;
   background-color: lightgray;
   text-align: center;
-  width: fit-content;
+  width: auto;
   height: fit-content;
   border: 1px solid red;
-  padding: 3%;
-  margin: 3%;
+  padding: 1%;
+  margin: 1%;
 }
 
 div:hover {
@@ -179,13 +179,13 @@ div:hover {
 }
 
 div > p {
-  display: none; /*Here it hides the paragraph*/
+  display: none; /*Here it hides any paragraphs there could be inside the div */
 
 }
 
 #d1:hover > p {
   display: inline-block; /*And here it shows the paragraph*/
-  font-size: 0.5em;
+  font-size: 1em;
   color: blue;
   background-color: white;
   width: fit-content;
@@ -231,4 +231,9 @@ a:active {
   content: ' [link - this green text was added by a pseudo-element effect]';
   text-decoration: none;
   color: darkgreen;
+}
+
+.lista {
+  line-height: 2em;
+  font-weight: 600;
 }
