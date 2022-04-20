@@ -96,6 +96,11 @@ figure {
       .pseudo-elements-class {
         background-color: rgb(200, 230, 240);
       }
+
+      .box-model-intro {
+        background-color: rgb(150, 225, 238); 
+
+      }
       
 
       
