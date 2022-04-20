@@ -98,8 +98,11 @@ figure {
       }
 
       .box-model-intro {
-        background-color: rgb(150, 225, 238); 
-
+        background-color: rgb(150, 225, 238);
+        padding: 2em;
+        border: 7px solid blue;
+        margin: 2em;
+        outline: 7px solid yellow;
       }
       
 
@@ -230,7 +233,10 @@ a:active {
   color: black;
 }
 
-/*PSEUDO-ELEMENTS*/ 
+
+
+/*   PSEUDO-ELEMENTS   */ 
+
 
 .pseu-el-paragraph::after {
   content: ' [link - this green text was added by a pseudo-element effect]';
@@ -243,3 +249,9 @@ a:active {
   font-weight: 800;
   list-style: none;
 }
+
+
+/*    end of PSEUDO-ELEMENTS   */ 
+
+
+
