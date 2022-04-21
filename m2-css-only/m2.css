@@ -254,4 +254,41 @@ a:active {
 /*    end of PSEUDO-ELEMENTS   */ 
 
 
+/*LIST STYLING*/
+/*List Headings */
 
+.top-of-list {
+  font-size: 1.3em;
+}
+
+/* List Highlighted Items */
+
+.emphasis-list {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/*end of LIST STYLING*/
+
+
+/*BOX STYLING EXAMPLES*/
+
+.bkgr-color {
+  background-color: cornflowerblue;
+}
+
+.box-size-and-color {
+  background-color: cornflowerblue;
+  width: 300px;
+  height: 300px;
+}
+
+.box-size-color-position {
+  background-color: cornflowerblue;
+  width: 300px;
+  height: 300px;
+  margin-left: 10%;
+}
+
+/*end of BOX STYLING EXAMPLES*/
