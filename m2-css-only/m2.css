@@ -292,3 +292,37 @@ a:active {
 }
 
 /*end of BOX STYLING EXAMPLES*/
+
+
+/* EXAMPLE OF SHORTHAND IN A CLASS CALLED "short"
+
+It will be applied to the following items, in the following order (must be):
+
+border: width style color
+padding: top right bottom left (note that it's clockwise)
+margin: top right bottom left (note that it's clockwise)
+outline: width style color
+
+*/
+
+.short {
+
+  border: 10px solid blue;
+  
+  padding: 10px 20px 30px 40px;
+
+  /*
+  If the values are all the same (let's say 50px), just declare "padding: 10px" and the value will be modify all sides. Otherwise you name the values one by one, like the valid padding above: "10px 20px 30px 40px;" or whatever values.
+  */
+
+  /*
+  If you declate only 2 values (50px 50px), the first one will go to top an bottom; the second one will go to right and left.
+  */
+  
+  margin: 50px;
+
+  
+  
+
+
+}
