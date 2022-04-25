@@ -48,11 +48,12 @@ h3 {
 .clarify-box {
   box-shadow: inset 0 0 1.5em chartreuse, 0 0 1em blue;
   width: 70%;
-  margin: auto;
+  margin: auto; /*this one centralizes the box - left and right.*/
+  margin-top: 3em; /*not affected by the "auto" above*/
+  margin-bottom: 3em; /*not affected by the "auto" above*/
   padding: 2%;
   color: blue;
-  margin-top: 3em;
-  margin-bottom: 3em;
+
 }
 
 footer {
@@ -122,6 +123,7 @@ figure {
       margin: 0;
       padding: 0;
       list-style-type: none;
+      margin-top: 1px;
 
     }
 
@@ -132,7 +134,7 @@ figure {
       padding: 4px;
       color: rgb(255, 255, 255);
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      border: 1px solid lightsteelblue;
+      border: 1px solid rgb(200, 230, 240);
       text-decoration: none;
 }
 /* Nav Bar style end */
@@ -296,11 +298,14 @@ a:active {
 
 /* EXAMPLE OF SHORTHAND IN A CLASS CALLED "short"
 
-It will be applied to the following items, in the following order (must be):
+Shorthand will be applied to the following items of a paragraph tag and the values MUST be in the following order for each one :
 
 border: width style color
+
 padding: top right bottom left (note that it's clockwise)
+
 margin: top right bottom left (note that it's clockwise)
+
 outline: width style color
 
 */
@@ -316,7 +321,7 @@ outline: width style color
   */
 
   /*
-  If you declate only 2 values (50px 50px), the first one will go to top an bottom; the second one will go to right and left.
+  If you declate only 2 values for margins or paddings (e.g. 50px 50px), the first one will set  top an bottom values; the second one will set right and left values.
   */
   
   margin: 50px;
