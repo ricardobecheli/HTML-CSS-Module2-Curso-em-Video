@@ -605,14 +605,14 @@
                 The id of an element is unique within a page, so the id selector is used to select <strong>one</strong> unique element (<em><strong>one</strong> and only <strong>one</strong>!</em>), i.e. an  <strong>&lt;h1&gt;</strong> tag.
             </p>
 
-            <article class="clarify-box">
+            <aside class="clarify-box">
                 <h2>Clarifying<sup>1</sup>: English</h2>
 
                 <p>
                     The Difference Between <q>i.e.</q> (used above) and  <q>e.g.</q>
                 </p>
 
-                    <article class="clarify-box">
+                    <aside class="clarify-box">
                         <p>
                             Check the code. Here I'm using:
                         </p>
@@ -623,7 +623,7 @@
                             <li>HTML &lt;blockquote&gt;</li>
                             <li>CSS box-shadow (one inside the other)</li>
                         </ul>
-                    </article>
+                    </aside>
 
                     <blockquote cite="https://www.merriam-webster.com/words-at-play/ie-vs-eg-abbreviation-meaning-usage-difference#:~:text=I.e.%20is%20an%20abbreviation%20for,examples%20for%20the%20previous%20statement.">
 
@@ -642,7 +642,7 @@
                         <p>
                             <a href="http://www.merriam-webster.com/words-at-play/ie-vs-eg-abbreviation-meaning-usage-difference#:~:text=I.e.%20is%20an%20abbreviation%20for,examples%20for%20the%20previous%20statement." target="_blank" rel="noopener noreferrer">www.merriam-webster.com</a>
                         </p>
-            </article>
+            </aside>
 
     <h1 id="different">
         To this &lt;h1&gt;
@@ -676,7 +676,7 @@
 
             <img src="assets/different-3.png" width="30%" alt="id code for any tag I want in the CSS file">
 
-            <article class="clarify-box">
+            <aside class="clarify-box">
 
                 <h2>
                     Clarifying<sup>2</sup>: <br>
@@ -688,7 +688,7 @@
                     So wrong that I don't know why they allow it to work. Looks like a prank (pegadinha, in portuguese), agree?
                 </p>
              
-            </article>
+            </aside>
 
         <h2>
             4.1.1) id in local navbar
@@ -905,7 +905,7 @@
             <a href="https://html-css-module2-curso-em-video.vercel.app/" target="_blank" rel="noopener noreferrer">This line and all the links in the page are to be modified by pseudo-classes, as explained below:</a>
         </p>
 
-        <article class="clarify-box">
+        <aside class="clarify-box">
 
             <h2>
                 Clarifying<sup>3</sup>: How to use pseudo-class links in CSS
@@ -927,7 +927,7 @@
                 <li><strong>hover</strong> - <span style="font-size: 0.75em; color: darkorange;">When the mouse is over it gets DARK-ORANGE.</span></li>
                 <li>active - <span style="font-size: 0.75em; color: black;">While being clicked it becomes BLACK.</span></li>
             </ol>
-        </article>
+        </aside>
 
             <p>
                 Check the code of pseudo-class links in CSS:
@@ -994,7 +994,7 @@
                 You can use <strong>only one pseudo-element in a selector</strong>. It must appear after the simple selectors in the statement.
             </p>
 
-        <article class="clarify-box">
+        <aside class="clarify-box">
             <h2>
                 Clarifying<sup>4</sup>: The double colon notation
             </h2>
@@ -1006,7 +1006,7 @@
             <p>
                 As a rule, double colons (::) should be used instead of a single colon (:). This distinguishes pseudo-classes from pseudo-elements. However, since this distinction was not present in older versions of the W3C spec, most browsers support both syntaxes for the original pseudo-elements.
             </p>
-        </article>
+        </aside>
 
             <p>
                 Check
@@ -1327,7 +1327,7 @@
                 And if don't approve the changes tested in dev tools just refresh the page (if you are viewing in real time) and it returns to the last coded version.
             </p>
 
-                <article class="clarify-box">
+                <aside class="clarify-box">
                     <p>
                         Now the Elilia Romagna <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/ItalyEmilia-Romagna.png/250px-ItalyEmilia-Romagna.png" width="7%" alt="Emilia-Romagna map"> F1 Sprint Race is about to start in Imola . I'll be right back.
                     </p>
@@ -1336,7 +1336,7 @@
                     <p>
                         Peccato! Oggi la Ferrari ha perso il primo posto.
                     </p>
-                </article>
+                </aside>
 
         <h2>
             7.2.2) Shorthand
@@ -1382,9 +1382,55 @@
                 The opposite is also true.
             </p>
 
-    <h1>
-        ...new article next lesson?
-    </h1>
+        <h2>
+            7.4) Boxes and the HTML semantic structure
+        </h2>
+
+            <p>
+                The HTML box model rules all the building process. It has everything to do with semantic structure.
+            </p>
+
+            <p>
+                Semantic HTML elements are those that clearly describe their meaning, as the most used:
+            </p>
+
+            <section style="display: inline-block; width: 100%; height: fit-content; background-color: aqua; margin: auto;">
+                <ul style="float: left;">
+                    <li>&lt;article&gt;</li>
+                    <li>&lt;aside&gt;</li>
+                    <li>&lt;details&gt;</li>
+                    <li>&lt;figcaption&gt;</li>
+                    <li>&lt;figure&gt;</li>
+                    <li>&lt;footer&gt;</li>
+                    <li>&lt;header&gt;</li>
+                    <li>&lt;main&gt;</li>
+                    <li>&lt;mark&gt;</li>
+                    <li>&lt;nav&gt;</li>
+                    <li>&lt;section&gt;</li>
+                    <li>&lt;summary&gt;</li>
+                    <li>&lt;time&gt;</li>
+                  </ul>
+
+                  <figure style="float: right;">
+                      <img src="assets/boxes-semantic-elements.gif" alt="boxes as semantic elements in html">
+                      <figcaption>Figure from w3schools</figcaption>
+                  </figure>
+
+
+
+            </section>
+
+            <p>
+                ...
+            </p>
+
+            <p>
+                ...
+            </p>
+
+            <p>
+                ...
+            </p>
 
 
 
