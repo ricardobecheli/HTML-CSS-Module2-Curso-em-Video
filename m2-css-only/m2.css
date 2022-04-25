@@ -324,7 +324,10 @@ outline: width style color
   If you declate only 2 values for margins or paddings (e.g. 50px 50px), the first one will set  top an bottom values; the second one will set right and left values.
   */
   
-  margin: 50px;
+  margin: 50px auto;
+  /*Margins top and bottom 50px, margins right and left "auto" (it centralizes)*/
+
+  outline: 2.5px dashed salmon;
 
   
   
