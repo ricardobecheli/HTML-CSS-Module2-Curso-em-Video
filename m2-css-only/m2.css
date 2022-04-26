@@ -15,9 +15,20 @@ body {
     background-color: rgb(200, 230, 240);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16pt;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin: 0;
+}
 
+main {
+  padding: 1%;
+}
+
+footer {
+  background-color: rgb(3, 92, 209);
+  color: white;
+  padding: 30px;
+  text-align: center;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 p {
@@ -32,10 +43,13 @@ p {
 h1 {
     color: rgb(1, 14, 136);
     /*font-size: 3rem;*/
+    border-bottom: 5px solid black;
 }
+
 
 #different {
   color: darkred;
+  border: 0;
 }
 
 h2 {
@@ -56,12 +70,6 @@ h3 {
 
 }
 
-footer {
-  background-color: rgb(3, 92, 209);
-  color: white;
-  padding: 30px;
-  text-align: center;
-}
 
 figure {
     margin-bottom: 50px;
@@ -75,27 +83,27 @@ figure {
       .navbar-css {}
 
       .color-class {
-        background-color: rgb(150, 225, 238);
+        margin-bottom: 7em;
       }
 
       .typography-class {
-                background-color: rgb(200, 230, 240);
+        margin-bottom: 7em;
       }
 
       .text-alignment-class {
-                background-color: rgb(150, 225, 238);
+        margin-bottom: 7em;
       }
 
       .explained-id-class {
-                background-color: rgb(200, 230, 240);
+        margin-bottom: 7em;
       }
 
       .pseudo-class {
-                background-color: rgb(150, 225, 238);        
+        margin-bottom: 7em;       
       }
 
       .pseudo-elements-class {
-        background-color: rgb(200, 230, 240);
+        margin-bottom: 7em;
       }
 
       .box-model-intro {
@@ -104,6 +112,7 @@ figure {
         border: 7px solid blue;
         margin: 2em;
         outline: 7px solid yellow;
+        margin-bottom: 7em;
       }
       
 
@@ -284,12 +293,14 @@ a:active {
 
 .bkgr-color {
   background-color: cornflowerblue;
+  border-bottom: 0;
 }
 
 .box-size-and-color {
   background-color: cornflowerblue;
   width: 300px;
   height: 300px;
+    border-bottom: 0;
 }
 
 .box-size-color-position {
@@ -297,6 +308,7 @@ a:active {
   width: 300px;
   height: 300px;
   margin-left: 10%;
+    border-bottom: 0;
 }
 
 /*end of BOX STYLING EXAMPLES*/
