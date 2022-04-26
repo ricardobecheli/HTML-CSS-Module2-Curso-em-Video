@@ -180,16 +180,21 @@ div {
 div:hover {
   background-color: coral;
   color: red;
-  text-align: left;
   font-weight: bolder;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
+}
 
-
+div > div:hover {
+  background-color: crimson;
+  color: white;
 }
 
 div > p {
-  display: none; /*Here it hides any paragraphs there could be inside the div */
+  display: none; /*Here it hides any paragraphs 
+  there could be inside the div.
+  
+  Only "div A" here has a paragraph inside. */
 
 }
 
@@ -198,6 +203,7 @@ div > p {
   font-size: 1em;
   color: blue;
   background-color: white;
+  padding: 5px;
   width: fit-content;
   height: 1em;
 }
@@ -346,5 +352,14 @@ order for each one :
 figure > aside {
   background-color: black;
   color: white;
+}
+
+/* FIGURE default to zero*/
+
+figure {
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 

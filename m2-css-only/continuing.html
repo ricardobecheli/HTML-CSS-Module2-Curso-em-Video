@@ -855,14 +855,14 @@
         </p>
 
         <p>
-            I put the three of them in a div+class "alignment" to do some tests. It bounces a lot when hoovered. I will certainly learn how to keep them quiet, very soon.
+            I put the three of them in a div+class "alignment" to do some tests. It shrinks when hoovered. I will certainly learn how to keep them quiet, very soon. It used to bounce a lot but  it ceased when I took the "text-align:left" off from "div:hover" CSS code.
         </p>
 
 
                 <div class="alignment">
                     <div id="d1">
                         This is div A
-                        <p>hidden</p>
+                        <p>Hidden &lt;p&gt;</p>
                     </div>
                     <div>
                         This is div B
@@ -875,10 +875,22 @@
 
 
             <p>
-                Check the code below. It only works in "div A" because it's the only one with an id called "d1" and a paragrgaph tag inside:
+                Check the two codes. First the HTML, then CSS. It only works in "div A" because it's the only one with an id called "d1" and a paragrgaph tag inside:
             </p>
 
-            <img src="assets/div-child.png" width="70%" alt="Code showing that a paragraph is child of a div and how it can be hidden and displayed">
+            <p>
+                The HTML code:
+            </p>
+
+            <figure>
+                <img src="assets/div-child-html.png" width="70%" alt="div-child-html">
+            </figure>
+
+            <p>
+                The CSS code:
+            </p>
+
+            <img src="assets/div-child-css.png" width="70%" alt="Code showing that a paragraph is child of a div and how it can be hidden and displayed">
 
 <!--
     Another example of pseudo-classes, from w3schools:
@@ -1405,7 +1417,7 @@
             </p>
 
             <figure>
-                <img src="assets/div-child-html.png" width="100%" alt="">
+                <img src="assets/child-element-html.png" width="100%" alt="">
             </figure>
 
 
