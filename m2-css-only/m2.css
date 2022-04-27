@@ -375,3 +375,41 @@ figure {
   margin-right: 0px;
 }
 
+/*BOX-SHADOW*/
+
+
+.shadow-1 {
+  box-shadow: 10px 5px 5px red;
+  border: 1px solid black;
+  margin-bottom: 100px;
+  margin-top: 100px;
+
+}
+
+.shadow-2 {
+  box-shadow: 60px -16px teal;
+  border: 1px solid black;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.shadow-3 {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  border: 1px solid black;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.shadow-4 {
+  box-shadow: inset 10px 15px 25px  grey;
+  border: 1px solid black;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.shadow-5 {
+  box-shadow: 9px 9px blue, -2em 0 .4em olive, -0px -15px 9px 10px yellow;
+  border: 1px solid black;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
