@@ -12,7 +12,7 @@ header {
 }
 
 body {
-    background-color: rgb(200, 230, 240);
+    background-color: rgb(234, 249, 253);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16pt;
     margin: 0;
@@ -31,12 +31,44 @@ footer {
   margin-right: 0%;
 }
 
+
+
+/* NAVBAR style start, copied and modified from
+ https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical */
+
+ ul.navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 1px;
+
+}
+
+li a {
+  display: block;
+  width: 200px;
+  background-color: white;
+  padding: 4px;
+  color: rgb(255, 255, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid rgb(200, 230, 240);
+  text-decoration: none;
+}
+
+
+/* Nav Bar style end */
+
+
+
 p {
     text-align: justify;
     margin-right: 5%;
   }
 
- 
+  
+blockquote > p {
+  font-style: italic;
+}
 
 /*As soon as I created article classes for organizing the topics, h1 changed font size to a little smaller than h2. It only returns to its previos (original) size if I attribute 3rem to it in CSS. Very, VERY STRANGE! */
 
@@ -78,9 +110,14 @@ figure {
 }
 
 
-/* Here are the article names. I'm dividing into articles (before the course gets to this subject) after reading about CSS best practices somewhere*/
+/* Here are the article's classes names.
+I'm dividing into articles (before the course gets to this subject) 
+after reading about CSS best practices somewhere*/
 
-      .navbar-css {}
+      .navbar-css {
+        margin-bottom: 7em;
+        
+      }
 
       .color-class {
         margin-bottom: 7em;
@@ -106,7 +143,7 @@ figure {
         margin-bottom: 7em;
       }
 
-      .box-model-intro {
+      .box-model-1 {
         background-color: rgb(150, 225, 238);
         padding: 2em;
         border: 7px solid blue;
@@ -114,6 +151,20 @@ figure {
         outline: 7px solid yellow;
         margin-bottom: 7em;
       }
+
+      .devtools {
+        margin-bottom: 7em;
+      }
+
+      .shorthand {
+        margin-bottom: 7em;
+      }
+
+      .box-model-2 {
+        margin-bottom: 7em;
+      }
+
+      .
       
 
       
@@ -124,29 +175,6 @@ figure {
 
 
 
-
-/* NAVBAR style start, copied and modified from
- https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical */
-
-    ul.navbar {
-      margin: 0;
-      padding: 0;
-      list-style-type: none;
-      margin-top: 1px;
-
-    }
-
-    li a {
-      display: block;
-      width: 200px;
-      background-color: white;
-      padding: 4px;
-      color: rgb(255, 255, 255);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      border: 1px solid rgb(200, 230, 240);
-      text-decoration: none;
-}
-/* Nav Bar style end */
 
 
 /*gradient class properties*/
@@ -314,6 +342,7 @@ a:active {
 /*end of BOX STYLING EXAMPLES*/
 
 
+
 /* EXAMPLE OF SHORTHAND IN A CLASS CALLED "short"
 
 Shorthand will be applied to the following items of a 
@@ -375,7 +404,19 @@ figure {
   margin-right: 0px;
 }
 
+/*DASHED FIGURE*/
+
+.dashed-figure {
+  border: 2px dashed red;
+}
+
 /*BOX-SHADOW*/
+
+.shadow-test-devtools {
+  background-color: beige;
+  padding: 6px;
+  box-shadow: 05px 5px 5px 5px black;
+}
 
 
 .shadow-1 {

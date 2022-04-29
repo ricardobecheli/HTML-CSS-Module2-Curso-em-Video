@@ -23,8 +23,10 @@
             </p>
         </header>
         
+
 <!--NAV BAR START-->
-        <article class="navbar-css">
+
+        <article class="navbar-article">
             <ul class="navbar">
                 <li><a href="#colors">Colors</a></li>
                 <li><a href="#typography">Typography</a></li>
@@ -32,10 +34,10 @@
                 <li><a href="#explain-id-and-class">id & class & div</a></li>
                 <li><a href="#pseudo-classes">Pseudo Classes</a></li>
                 <li><a href="#pseudo-elements">Pseudo Elements</a></li>
-                <li><a href="#box-intro">Box Model intro</a></li>
+                <li><a href="#box-1">Box Model 1</a></li>
                 <li><a href="#dev-tools">Dev Tools intro</a></li>
                 <li><a href="#short-hand">Shorthand</a></li>
-                <li><a href="#boxdetails">Box Model details</a></li>
+                <li><a href="#box-2">Box Model 2</a></li>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
@@ -43,7 +45,9 @@
                 
             </ul>
         </article>
+
 <!--NAV BAR END-->
+
 
 <main>
 
@@ -1130,11 +1134,15 @@
 
 </article>
 
-<article class="box-model-intro" id="box-intro">
+<article class="box-model-1" id="box-1">
 
 <h1>
-    7) Box Model
+    7) Box Model 1
 </h1>
+
+            <p>
+                Every topic in this <q>notebook</q> is an HTML &lt;article&gt;. It would be unoticeable unless I surround it with a border (blue) and an extra outline too (yellow), as I did.
+            </p>
 
             <p>
                 All HTML elements can be considered as boxes. Every HTML element "makes" a box around its content, even if the box is invisible, like the invisible dashed one displayed around the text below:
@@ -1405,7 +1413,7 @@
                 In the picture below you see the &lt;h2&gt; element RGB color changed to (350, 50, 50) and it displays a dark orange font color for <strong>all</strong> &lt;h2&gt; in the page (not only this one, as I checked).  
             </p>
 
-            <img src="assets/dev-tools-values.jpg" width="90%" style="border: 2px dashed red;" alt="devtools rgb values ">
+            <img src="assets/dev-tools-values.jpg" width="90%" class="dashed-figure" alt="devtools rgb values ">
 
             <p>
                 At the same time the original color values remain intact in the code. Look:
@@ -1424,12 +1432,16 @@
             </p>
 
             <p>
-                And if don't approve the changes tested in dev tools just refresh the page (if you are viewing in real time) and it returns to the last coded version.
+                And if you don't approve the changes tested in dev tools just refresh the page (if you are viewing in real time) and it returns to the last coded version.
+            </p>
+
+            <p>
+                If you are "clicked" in an adjustable value box like in the above figure you can slide the mouse wheel to make visible, for instance, shadows, margins or paddings changes in real time.
             </p>
 
                 <aside class="clarify-box">
                     <p>
-                        Now the Elilia Romagna <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/ItalyEmilia-Romagna.png/250px-ItalyEmilia-Romagna.png" width="7%" alt="Emilia-Romagna map"> F1 Sprint Race is about to start in Imola . I'll be right back.
+                        Now the Elilia Romagna <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/ItalyEmilia-Romagna.png/250px-ItalyEmilia-Romagna.png" width="7%" alt="Emilia-Romagna map"> F1 Sprint Race is about to start in Imola (April 23, 2022) . I'll be right back.
                     </p>
                     <img src="https://maxf1.net/wp-content/uploads/2021/04/2021-Emilia-Romagna-GP-Imola-Track-Map-Photo-FIA-Edited-by-MAXF1net.jpg"  alt="Imola circuit">
                     <figcaption>source: https://maxf1.net/en/2022-f1-schedule/emilia-romagna-gp-imola/</figcaption>
@@ -1437,6 +1449,46 @@
                         Peccato! Oggi la Ferrari ha perso il primo posto.
                     </p>
                 </aside>
+
+
+        <h2>
+            8.3) Creating a shadow with devtools
+        </h2>
+
+            <p class="shadow-test-devtools">
+                Let's create a box-shadow in this paragraph using devtools. Different from Curso em Video's lesson, devtools does not shows us the 3 dot options menu any longer. After sweating a lot I found that now you must declare the box-shadow in CSS first, whatever the values. Only then you may find the "magic" graphic tool, as it will be explained in the following images. Be careful! It might have changed again since I wrote this.
+            </p>
+
+            <figure>
+                <img src="assets/dev-tools-box-shadow-0.jpg" width="70%" alt="Declare the shadow in css">
+                <figcaption>You must declare the box-shadow in CSS first.</figcaption>
+            </figure>
+
+            <p>
+                Then you select the desired element in devtools. Check the image below: The box-shadow properties will appear in the style panel (red arrow). The question marks is where the 3-dot menu used to be. The blue arrow is the result. But the best is still to come.
+            </p>
+
+            <figure>
+                <img src="assets/dev-tools-box-shadow-1.jpg" class="dashed-figure" width="70%" alt="select the desired element in devtools">
+            </figure>
+
+            <p>
+                Click the double square icon in the begining of the shadow values and the 'magic' shadow maker will open. Make the changes until the real-time effect displayed in your page peases you. Then  copy the values to the CSS code editor. That's it. Ready!
+            </p>
+
+            <img src="assets/dev-tools-box-shadow-2.jpg" class="dashed-figure" width="70%"  alt="">
+
+            <p>
+                Thank you, <a href="http://dev.to/devmount/chromium-developer-tools-can-do-that-3ebe" target="_blank" rel="noopener noreferrer">devmount</a>! Without you it would be almost impossible to discover that such an important thing was modified in Google Chrome's Dev-Tools.
+            </p>
+
+
+
+
+
+
+
+
 </article>
 
 
@@ -1514,10 +1566,10 @@
 </article>
 
 
-<article class="box-details" id="boxdetails">
+<article class="box-model-2" id="box-2">
 
     <h1>
-        10) Box Model details
+        10) Box Model 2
     </h1>
 
 
