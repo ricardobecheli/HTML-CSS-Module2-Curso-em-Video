@@ -32,10 +32,10 @@
                 <li><a href="#explain-id-and-class">id & class & div</a></li>
                 <li><a href="#pseudo-classes">Pseudo Classes</a></li>
                 <li><a href="#pseudo-elements">Pseudo Elements</a></li>
-                <li><a href="#box-intro">Box Model</a></li>
-                <li><a href="#dev-tools">Dev Tools</a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li><a href="#box-intro">Box Model intro</a></li>
+                <li><a href="#dev-tools">Dev Tools intro</a></li>
+                <li><a href="#short-hand">Shorthand</a></li>
+                <li><a href="#boxdetails">Box Model details</a></li>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
@@ -1303,7 +1303,7 @@
 <article class="devtools" id="dev-tools">
 
 <h1>
-    8) Chrome DevTools
+    8) Chrome DevTools (Focused on CSS box-model)
 </h1>
 
         <blockquote cite="https://blog.hubspot.com/customers/design-updates-in-browser-guide">
@@ -1358,9 +1358,9 @@
             Further info straight from the source at <a href="http://developer.chrome.com/docs/devtools/overview/" target="_blank" rel="noopener noreferrer"><img src="assets/Google_Chrome_icon_2011.png" width="30px" alt="Google_Chrome_icon">Chrome Developers</a>.
         </p>
 
-<h2>
-    8.1) CSS structure in Dev Tools
-</h2>
+    <h2>
+        8.1) CSS structure in Dev Tools
+    </h2>
 
                 <p>
                     If you press <q>F12</q> in Google Chrome,  a screen like this should open side by side with the web page you are visiting:
@@ -1389,9 +1389,9 @@
                     </ol>
                 </figcaption>
 
-        <h2>
-            7.2.1) Changing values in Dev Tools
-        </h2>
+    <h2>
+        8.2) Changing values in Dev Tools
+    </h2>
 
             <p>
                 By clicking in the values displayed in the style section of Dev Tools a small box will open and you can change its value.  
@@ -1437,81 +1437,95 @@
                         Peccato! Oggi la Ferrari ha perso il primo posto.
                     </p>
                 </aside>
+</article>
 
-        <h2>
-            7.2.2) Shorthand
-        </h2>            
-            
-        <p>
-            Shorthand simplifies CSS writing.
-        </p>    
-        
-        <p>
-                <q>Shorthand properties are CSS properties that let you set the values of multiple other CSS properties simultaneously. Using a shorthand property, you can write more concise (and often more readable) style sheets, saving time and energy</q> (<a href="http://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties" target="_blank" rel="noopener noreferrer">developer.mozilla.org</a>).
-            </p>
 
+
+<article class="shorthand" id="short-hand">
+    <h1>
+        9) Shorthand
+    </h1>
+    
             <p>
-                A good webpage comprising information about shorthand is this one at <a href="http://webplatform.github.io/docs/guides/css_shorthand/" target="_blank" rel="noopener noreferrer">webplatform.github.io</a>.
+                Shorthand simplifies CSS writing.
             </p>
-
+    
             <p>
-                Let's go to the lesson:
-            </p>
+                    <q>Shorthand properties are CSS properties that let you set the values of multiple other CSS properties simultaneously. Using a shorthand property, you can write more concise (and often more readable) style sheets, saving time and energy</q> (<a href="http://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties" target="_blank" rel="noopener noreferrer">developer.mozilla.org</a>).
+                </p>
+    
+                <p>
+                    A good webpage comprising information about shorthand is this one at <a href="http://webplatform.github.io/docs/guides/css_shorthand/" target="_blank" rel="noopener noreferrer">webplatform.github.io</a>.
+                </p>
+    
+                <p>
+                    Let's go to the lesson:
+                </p>
+    
+                <p>
+                    We are going to simplify the border, padding, margin and outline of a class I'll call "short", to be applied to the next paragraph.
+                </p>
+    
+                <p class="short">
+                    At the violet hour, when the eyes and back
+                    Turn upward from the desk, when the human engine waits
+                    Like a taxi throbbing waiting,
+                    I Tiresias, though blind, throbbing between two lives,
+                    Old man with wrinkled female breasts, can see
+                    At the violet hour, the evening hour that strives
+                    Homeward, and brings the sailor home from sea,
+                    The typist home at teatime, clears her breakfast, lights
+                    Her stove, and lays out food in tins.
+    
+                    (a snippet of "The Waste Land" by T. S. Eliot)
+                </p>
+    
+                <p>
+                    This "next" paragraph is here only to show how wide the "margin-bottom" of the previous paragraph is. Take a look at the CSS code:
+                </p>
+    
+                <figure>
+                    <img src="assets/shorthand-css.png" width="100%" alt="shorthand in css code">
+    
+                        <aside>
+                            <p>
+                                Picture taken by myself with VS Code's CodeSnap extention.
+                                (this is the "aside" child of "figure" [figure > aside], check the code:)
+                            </p>
+                        </aside>
+    
+                </figure>
+    
+                <p>
+                    First the CSS code:
+                </p>
+    
+                <figure>
+                    <img src="assets/child-element-css.png" width="70%" alt="child-element-css">
+                </figure>
+    
+                <p>
+                    Now the HTML code:
+                </p>
+    
+                <figure>
+                    <img src="assets/child-element-html.png" width="100%" alt="">
+                </figure>
+</article>
 
-            <p>
-                We are going to simplify the border, padding, margin and outline of a class I'll call "short", to be applied to the next paragraph.
-            </p>
 
-            <p class="short">
-                At the violet hour, when the eyes and back
-                Turn upward from the desk, when the human engine waits
-                Like a taxi throbbing waiting,
-                I Tiresias, though blind, throbbing between two lives,
-                Old man with wrinkled female breasts, can see
-                At the violet hour, the evening hour that strives
-                Homeward, and brings the sailor home from sea,
-                The typist home at teatime, clears her breakfast, lights
-                Her stove, and lays out food in tins.
-                
-                (a snippet of "The Waste Land" by T. S. Eliot)
-            </p>
+<article class="box-details" id="boxdetails">
 
-            <p>
-                This "next" paragraph is here only to show how wide the "margin-bottom" of the previous paragraph is. Take a look at the CSS code:
-            </p>
-
-            <figure>
-                <img src="assets/shorthand-css.png" width="100%" alt="shorthand in css code">
-
-                    <aside>
-                        <p>
-                            Picture taken by myself with VS Code's CodeSnap extention. 
-                            (this is the "aside" child of "figure" [figure > aside], check the code:)
-                        </p>
-                    </aside>
-
-            </figure>
-
-            <p>
-                First the CSS code:
-            </p>
-
-            <figure>
-                <img src="assets/child-element-css.png" width="70%" alt="child-element-css">
-            </figure>
-
-            <p>
-                Now the HTML code:
-            </p>
-
-            <figure>
-                <img src="assets/child-element-html.png" width="100%" alt="">
-            </figure>
+    <h1>
+        10) Box Model details
+    </h1>
 
 
-        <h2>
-            7.3) From block/box to inline (and vice-versa)
-        </h2>
+
+
+    <h2>
+        10.1) From block/box to inline (and vice-versa)
+    </h2>
 
             <p>
                 The paragraph is a block (box-level) element. If you want it to behave/be displayed as inline, just declare in its CSS: "display: inline".
@@ -1521,9 +1535,9 @@
                 The opposite is also true.
             </p>
 
-        <h2>
-            7.4) Boxes and the HTML semantic structure
-        </h2>
+    <h2>
+        10.2) Boxes and the HTML semantic structure
+    </h2>
 
             <p>
                 The HTML box model rules all the building process. It has everything to do with semantic structure.
@@ -1557,9 +1571,9 @@
 
                 </section>
 
-        <h2>
-            7.5) Box shadow
-        </h2>
+    <h2>
+        10.3) Box shadow
+    </h2>
 
             <p>
                 The box-shadow property attaches one or more shadows to an element.
@@ -1581,9 +1595,9 @@
                 In shorthand they must be set in the same order as above.
             </p>
 
-            <h3>
-                7.5.1) First I'll let the examples close together so you can  better compare, then I'll repeat, showing the code for each one. There you go!
-            </h3>
+        <h3>
+            10.3.1) First I'll let the examples close together so you can  better compare, then I'll repeat, showing the code for each one. There you go!
+        </h3>
 
             <p class="shadow-1">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ipsum unde mollitia totam, architecto velit illum porro aut! Quia explicabo est qui placeat quaerat optio voluptate, suscipit harum odio quae!
@@ -1605,9 +1619,9 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ipsum unde mollitia totam, architecto velit illum porro aut! Quia explicabo est qui placeat quaerat optio voluptate, suscipit harum odio quae!
             </p>
 
-            <h3>
-                7.5.2) Now the respective code after each one:
-            </h3>
+        <h3>
+            10.3.2) Now the respective code after each one:
+        </h3>
 
             <p class="shadow-1">
                 The "X" axis, as you know, means "left-right", left by negative numbers, right by positive numbers. <br>
