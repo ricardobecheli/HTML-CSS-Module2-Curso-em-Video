@@ -434,13 +434,29 @@ figure {
   margin-top: 100px;
 }
 
+
+/* PROBLEM: BOTTOM SHADOW OR BORDER SEPARATED FROM THE PICTURE*/
+
 .shadow-3 {
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  box-shadow: 12px 12px 2px 1px rgba(34, 34, 235, 0.692);
   padding: 30px;
   border: 1px solid black;
   margin-bottom: 100px;
   margin-top: 100px;
 }
+
+.article-class-background {
+  width: 70%;
+  padding: 50px;
+  background-image: url(assets/textura-1.jpg); height: 400px;
+}
+
+.figure-class-gray {
+  box-shadow: 15px 15px 15px 10px rgba(0, 0, 0, 0.767);
+}
+
+/* end of snippet PROBLEM: BOTTOM SHADOW OR BORDER...*/
+
 
 .shadow-4 {
   box-shadow: inset 10px 15px 25px  grey;
@@ -456,15 +472,5 @@ figure {
   margin-top: 100px;
 }
 
-.shadow-gray-on-background {
-  width: 70%;
-
-  background-image: url(assets/textura-1.jpg); height: 400px;
-}
-
-.shadow-gray {
-  box-shadow: 15px 15px 5px 5px rgba(0, 0, 0, 0.637);
-  height: max-content;
-}
 
 
