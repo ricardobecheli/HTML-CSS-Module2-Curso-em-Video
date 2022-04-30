@@ -1314,6 +1314,13 @@
     8) Chrome DevTools (Focused on CSS box-model)
 </h1>
 
+<section>
+
+
+
+
+</section>
+
         <blockquote cite="https://blog.hubspot.com/customers/design-updates-in-browser-guide">
             <p>
                 Developer tools, often called devtools, allow you to inspect, test, and debug code on a browser that impacts the user interface. Marketers, SEO specialists, and designers can also use devtools to test changes and optimize their webpages.
@@ -1481,6 +1488,11 @@
             <p>
                 Thank you, <a href="http://dev.to/devmount/chromium-developer-tools-can-do-that-3ebe" target="_blank" rel="noopener noreferrer">devmount</a>! Without you it would be almost impossible to discover that such an important thing was modified in Google Chrome's Dev-Tools.
             </p>
+
+
+            <P>
+                Of course there's documentation at <a href="http://developer.chrome.com/tags/new-in-devtools/" target="_blank" rel="noopener noreferrer">developer.chrome.com</a> but it's not easy to find the subject you are interested in.
+            </P>
 
 
 
@@ -1700,14 +1712,38 @@
                 </figure>
 
             <p class="shadow-3">
-                This dark blue RGB has an "a" (rgba) meaning that is has a 20% transparency. <br>
-                Black shadows with a high degree of transparency look more natural. <br>
-                Check the code below:
+                This dark blue RGB has an "a" (rgba) meaning that is has a 20% <strong>transparency*</strong> (see below). <br>
+                Black shadows with a high degree of transparency look more natural.<br>
+                Still <strong>more natural</strong> would be making this shadow <strong>black</strong>, to become transparent gray. Chack the picture below, with a "gray" shadow applied over a texturized background. <br>
+                Check the "shadow-3" code below: <br>
+                <span style="color: red;">(is there a gap between the picture and the bottom shadow???)</span>
             </p>
 
-                <figure>
-                    <img src="assets/shadow-3.png" width="70%" alt="shadow-2">
-                </figure>
+                <article class="shadow-gray-on-background">
+                    <figure class="shadow-gray">
+                        <img src="assets/shadow-3.png" width="100%" alt="shadow-3">
+                    </figure>
+                </article>
+
+                <aside class="clarify-box">
+                    <h3>* Transparency</h3>
+                    <p>
+                        This is the way to make color transparency meet your taste:
+                    </p>
+                    <figure>
+                        <img src="assets/transparency-color.jpg" width="70%" alt="transparency-color">
+                    </figure>
+                    <p>
+                        When you hover the mouse over the <em>rgb</em> values in CSS (orange arrow) the color control box appears and you do the following:
+                    </p>
+                    <ol>
+                        <li>Slide the lever of the transparency (yellow arrow).</li>
+                        <li>See the "4th" rgb value changing at the color box header.</li>
+                        <li>When done, the value will be at its place (purple arrow).</li>
+                    </ol>
+                </aside>
+
+
 
             <p class="shadow-4">
                 "Inset" means that the shadow is internal. 
