@@ -435,7 +435,11 @@ figure {
 }
 
 
-/* PROBLEM: BOTTOM SHADOW OR BORDER SEPARATED FROM THE PICTURE*/
+/* PROBLEM: BOTTOM SHADOW OR BORDER SEPARATED FROM THE PICTURE
+Problem S O L V E D ! ! !
+SsEE BELOW
+filter: drop-shadow(25px 25px 15px rgb(0, 0, 0));
+*/
 
 .shadow-3 {
   box-shadow: 12px 12px 2px 1px rgba(34, 34, 235, 0.692);
@@ -452,7 +456,7 @@ figure {
 }
 
 .figure-class-gray {
-  box-shadow: 15px 15px 15px 10px rgba(0, 0, 0, 0.767);
+  filter: drop-shadow(25px 25px 15px rgb(0, 0, 0));
 }
 
 /* end of snippet PROBLEM: BOTTOM SHADOW OR BORDER...*/
