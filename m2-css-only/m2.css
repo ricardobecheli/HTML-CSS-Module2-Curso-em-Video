@@ -205,7 +205,7 @@ after reading about CSS best practices somewhere*/
 
 /*PSEUDO-CLASSES - 3 boxes example from Curso em Vídeo*/
 
-div {
+.alignment > div {
   display: inline-block;
   background-color: lightgray;
   text-align: center;
@@ -216,7 +216,7 @@ div {
   margin: 1%;
 }
 
-div:hover {
+.alignment > div:hover {
   background-color: coral;
   color: red;
   font-weight: bolder;
@@ -224,12 +224,12 @@ div:hover {
   font-style: italic;
 }
 
-div > div:hover {
+.alignment > div:hover {
   background-color: crimson;
   color: white;
 }
 
-div > p {
+.alignment > div > p {
   display: none; /*Here it hides any paragraphs 
   there could be inside the div.
   
@@ -479,5 +479,9 @@ filter: drop-shadow(25px 25px 15px rgb(0, 0, 0));
   margin-top: 100px;
 }
 
-
+.shadow-transparency {
+  display: flex;
+  padding: 1%;
+  background-color: rgb(127, 160, 250);
+}
 
