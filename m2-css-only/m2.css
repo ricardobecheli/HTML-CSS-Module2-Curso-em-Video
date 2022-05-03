@@ -480,8 +480,9 @@ filter: drop-shadow(25px 25px 15px rgb(0, 0, 0));
 }
 
 .shadow-transparency {
+  width: 70%;
   display: flex;
-  padding: 1%;
+  padding: 3%;
   background-color: rgb(127, 160, 250);
 }
 
