@@ -495,3 +495,24 @@ filter: drop-shadow(25px 25px 15px rgb(0, 0, 0));
 text-align: center;
 }
 
+.layout-list {
+  background-color: rgb(168, 106, 209);
+  border: 1px solid black;
+  margin-bottom: 10px;
+  height: 200px;
+  width: fit-content;
+  padding: 25px;
+
+}
+
+.layout-list > div {
+
+}
+
+.layout-list > img {
+  display: block;
+}
+
+.layout-list > li {
+
+}
