@@ -13,6 +13,16 @@ a {
     color: rgb(179, 177, 177);
 }
 
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 .header {
     background-color: black;
     display: flex;
@@ -34,5 +44,19 @@ a {
 .menu li a {
     display: block;
     padding: 10px;
+}
+
+/*CSS FLEXBOX 1*/
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
 }
 
