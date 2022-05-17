@@ -7,6 +7,9 @@ body,ul, li, p {
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    margin-bottom: 200px;
+}
 
 a {
     text-decoration: none;
@@ -58,5 +61,32 @@ img {
 .flex > div {
     flex: 1 1 200px;
     margin: 10px;
+}
+
+/*CSS GRID 1*/
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    margin: 0 auto;
+    row-gap: 20px; /*grid-gap is deprecated*/
+    column-gap: 20px; /*grid-gap is deprecated*/
+}
+
+.grid-1 > div:nth-child(n + 4) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px; /*grid-gap is deprecated*/
+    column-gap: 10px; /*grid-gap is deprecated*/
+    align-items: center;
+
+}
+
+.grid-1 > div.advertising {
+    display: block;
+    grid-column: 1;
+    grid-row: 2 / 5;
+    border-top: 10px solid tomato;
 }
 
