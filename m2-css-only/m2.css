@@ -495,27 +495,15 @@ filter: drop-shadow(25px 25px 15px rgb(0, 0, 0));
 text-align: center;
 }
 
-.layout-list {
-  background-color: rgb(168, 106, 209);
-  border: 1px solid black;
-  margin-bottom: 10px;
-  height: 200px;
-  width: fit-content;
-  padding: 25px;
-
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/*I did not manage to align this "layout list" as I wanted yesterday May 16, 2022.
-When I learn a little more I'll come back here.*/
-
-.layout-list > div {
-
+.flex > div {
+  flex: 1 1 200px;
+  margin: 10px;
 }
 
-.layout-list > img {
-  display: block;
-}
-
-.layout-list > li {
-
-}
