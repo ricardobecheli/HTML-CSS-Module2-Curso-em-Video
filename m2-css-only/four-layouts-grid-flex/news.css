@@ -106,3 +106,36 @@ img {
         order: -1; /*The DOM remains inaltered. The order is only visual. No problem.*/
     }
 }
+
+/*Grid 2 - Youtube layout*/
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    row-gap: 20px;
+    column-gap: 20px;
+
+    max-width: 800px;
+    padding: 10px; /*to detach from the right border when low viewport width.*/
+    margin: 0 auto;
+}
+
+.sidebar > div {
+margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        display: flex;
+        overflow: scroll;
+    }
+
+    .sidebar > div {
+        flex: 1 0 200px;
+        margin: 0 10px;
+    }
+}
