@@ -69,6 +69,7 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 800px;
+    padding: 10px; /*to detach from the right border when low viewport width.*/
     margin: 0 auto;
     row-gap: 20px; /*grid-gap is deprecated*/
     column-gap: 20px; /*grid-gap is deprecated*/
@@ -90,3 +91,18 @@ img {
     border-top: 10px solid tomato;
 }
 
+/*USAR MEDIA QUERY*/
+
+@media (max-width: 600px ) {
+    .grid-1 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-1 > div:nth-child(n + 4) {
+        display: block;
+    }
+    .grid-1 > div.advertising {
+        grid-column: auto;
+        grid-row: auto;
+        order: -1; /*The DOM remains inaltered. The order is only visual. No problem.*/
+    }
+}
