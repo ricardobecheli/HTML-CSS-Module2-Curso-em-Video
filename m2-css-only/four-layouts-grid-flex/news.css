@@ -150,7 +150,7 @@ margin-bottom: 10px;
     max-width: 800px;
     padding: 10px; /*to detach from the right border when low viewport width.*/
     margin: 0 auto;
-    align-items:center;
+    align-items:flex-start;
 }
 
 .grid-3-item:nth-child(1) {
