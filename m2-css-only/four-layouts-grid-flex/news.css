@@ -37,7 +37,6 @@ img {
 
 .menu {
     display: flex;
-
 }
 
 .menu li {
@@ -46,7 +45,7 @@ img {
 
 .menu li a {
     display: block;
-    padding: 10px;
+    padding: 10px; /*This is to enlarge the click area and make selecting easier particularly for mobile*/
 }
 
 /*CSS FLEXBOX 1*/
